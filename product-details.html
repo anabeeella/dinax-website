@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Dinax - Detalles del producto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><h2>Grupo Dinax</h2></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="catalog.html" class="nav-link">Nuestro Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#how-to-buy" class="nav-link">Cómo comprar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <nav class="breadcrumb-nav">
+                <a href="index.html">Grupo Dinax</a>
+                <span>/</span>
+                <a href="catalog.html">Catálogo</a>
+                <span>/</span>
+                <span id="breadcrumb-product">Producto</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="product-details">
+        <div class="container">
+            <div class="product-content">
+                <div class="product-images">
+                    <div class="main-image">
+                        <img id="main-product-image" src="assets/images/products/smartphone.jpg" alt="Product Image" onerror="this.src='https://picsum.photos/600/400?random=1'">
+                    </div>
+                    <div class="thumbnail-images">
+                        <img class="thumbnail active" src="assets/images/products/smartphone-thumb.jpg" alt="Thumbnail 1" onerror="this.src='https://picsum.photos/150/100?random=1'">
+                        <img class="thumbnail" src="assets/images/products/sofa-thumb.jpg" alt="Thumbnail 2" onerror="this.src='https://picsum.photos/150/100?random=2'">
+                        <img class="thumbnail" src="assets/images/products/sneakers-thumb.jpg" alt="Thumbnail 3" onerror="this.src='https://picsum.photos/150/100?random=3'">
+                        <img class="thumbnail" src="assets/images/products/tshirt-thumb.jpg" alt="Thumbnail 4" onerror="this.src='https://picsum.photos/150/100?random=4'">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h1 id="product-title">Nombre del Producto</h1>
+                    <div class="product-description">
+                        <p id="product-description">Descripción detallada del producto. Este es un producto de alta calidad que cumple con todos los estándares de la industria. Perfecto para uso doméstico y profesional.</p>
+                    </div>
+                    <div class="product-features">
+                        <h3>Características:</h3>
+                        <ul id="product-features">
+                            <li>Característica destacada 1</li>
+                            <li>Característica destacada 2</li>
+                            <li>Característica destacada 3</li>
+                            <li>Característica destacada 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Tabs -->
+    <section class="product-tabs">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="description">Descripción</button>
+                <button class="tab-btn" data-tab="specifications">Especificaciones</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-panel active" id="description">
+                    <h3>Descripción Detallada</h3>
+                    <p>Esta es una descripción más detallada del producto. Aquí puedes incluir información adicional sobre el producto, sus beneficios, y cualquier detalle importante que el cliente deba conocer antes de realizar la compra.</p>
+                    <p>El producto está diseñado con los más altos estándares de calidad y ha sido probado exhaustivamente para garantizar su durabilidad y rendimiento.</p>
+                </div>
+                <div class="tab-panel" id="specifications">
+                    <h3>Especificaciones Técnicas</h3>
+                    <table class="specifications-table">
+                        <tr>
+                            <td>Material</td>
+                            <td>Aluminio de alta calidad</td>
+                        </tr>
+                        <tr>
+                            <td>Dimensiones</td>
+                            <td>25cm x 15cm x 8cm</td>
+                        </tr>
+                        <tr>
+                            <td>Peso</td>
+                            <td>1.2 kg</td>
+                        </tr>
+                        <tr>
+                            <td>Color</td>
+                            <td>Disponible en 4 colores</td>
+                        </tr>
+                        <tr>
+                            <td>Garantía</td>
+                            <td>2 años</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products">
+        <div class="container">
+            <h2>Productos Relacionados</h2>
+            <div class="related-products-grid">
+                <div class="related-product-card">
+                    <img src="assets/images/products/laptop.jpg" alt="Related Product 1">
+                    <h3>Producto Relacionado 1</h3>
+                </div>
+                <div class="related-product-card">
+                    <img src="assets/images/products/coffee-table.jpg" alt="Related Product 2">
+                    <h3>Producto Relacionado 2</h3>
+                </div>
+                <div class="related-product-card">
+                    <img src="assets/images/products/soccer-ball.jpg" alt="Related Product 3">
+                    <h3>Producto Relacionado 3</h3>
+                </div>
+                <div class="related-product-card">
+                    <img src="assets/images/products/leather-jacket.jpg" alt="Related Product 4">
+                    <h3>Producto Relacionado 4</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- How to Buy Section -->
+        <section class="how-to-buy" id="how-to-buy">
+            <div class="container">
+                <h2>Cómo comprar</h2>
+                <p class="subtitle">Un proceso simple y transparente para que tengas tus productos sin vueltas.</p>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Explora nuestro catálogo</h3>
+                        <p>Mirá nuestro catálogo online y armá tu lista de productos según lo que quieras sumar a tu negocio.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Contactá con nosotros</h3>
+                        <p>Mandanos un WhatsApp o un mail con tu pedido. Te respondemos rápido con el presupuesto detallado y las opciones de entrega.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Recibí tu cotización</h3>
+                        <p>Cuando des el OK, procesamos tu pedido y coordinamos el envío. Vos solo tenés que esperar la entrega.</p>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>¿Listo para empezar?</h3>
+                    <p>Contactanos ahora y recibí una cotización personalizada</p>
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="cta-button">Contactar ahora</button>
+                </div>
+            </div>
+        </section>
+
+    <!-- WhatsApp Floating Button -->
+    <button class="whatsapp-float" onclick="window.open('https://wa.me/5491160143859?text=Hola! Quiero más info sobre sus productos', '_blank')" title="Contactar por WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.445 4.436-9.868 9.888-9.868 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.445-4.437 9.868-9.885 9.868m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dinax</h3>
+                    <p>Tu tienda de confianza para productos de calidad.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="catalog.html">Catálogo</a></li>
+                        <li><a href="index.html#about">Sobre Nosotros</a></li>
+                        <li><a href="index.html#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/grupodinax">Facebook</a>
+                        <a href="https://www.instagram.com/grupodinax/">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Grupo Dinax. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

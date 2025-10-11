@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Dinax - Importadora y distribuidora mayorista de productos de tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><h2>Grupo Dinax</h2></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="catalog.html" class="nav-link">Nuestro Catálogo</a>
+                </li>   
+                <li class="nav-item">
+                    <a href="#how-to-buy" class="nav-link">Cómo comprar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Convertite en distribuidor oficial mayorista de Dinax</h1>
+                <p>Descubre productos de la más alta calidad para todas tus necesidades</p>
+                <button onclick="window.location.href='catalog.html'" class="cta-button">Ver Catálogo</button>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero/hero-image.jpg" alt="Hero Image" onerror="this.src='https://picsum.photos/600/400?random=hero'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <section class="divider">
+        <div class="divider-content">
+            <h2>Calidad y excelencia en cada producto</h2>
+            <p>Nos comprometemos a ofrecerte lo mejor del mercado con estándares de calidad excepcionales</p>
+            <button onclick="window.location.href='catalog.html'" class="cta-button">Ver Catálogo</button>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2>Categorías de Productos</h2>
+            <p class="subtitle">Tenemos un catálogo pensado para que potencies tus ventas. Productos de calidad, actuales y con disponibilidad permanente.</p>
+            <div class="categories-grid">
+                <button class="category-card" onclick="window.location.href='catalog.html?category=electronics'">
+                    <div class="category-image-container">
+                        <div class="category-icon-pill">🔌</div>
+                        <img src="assets/images/categories/electronics.jpg" alt="Electrónica & Accesorios" onerror="this.src='https://picsum.photos/400/300?random=1'">
+                    </div>
+                    <h3>Electrónica & Accesorios</h3>
+                    <p>Cables, cargadores, conectividad, accesorios varios</p>
+                </button>
+                <button class="category-card" onclick="window.location.href='catalog.html?category=audio'">
+                    <div class="category-image-container">
+                        <div class="category-icon-pill">🎧</div>
+                        <img src="assets/images/categories/audio.jpg" alt="Audio & Sonido" onerror="this.src='https://picsum.photos/400/300?random=2'">
+                    </div>
+                    <h3>Audio & Sonido</h3>
+                    <p>Parlantes, auriculares, equipos de audio</p>
+                </button>
+                <button class="category-card" onclick="window.location.href='catalog.html?category=mobile'">
+                    <div class="category-image-container">
+                        <div class="category-icon-pill">📱</div>
+                        <img src="assets/images/categories/mobile.jpg" alt="Celulares & Tablets" onerror="this.src='https://picsum.photos/400/300?random=3'">
+                    </div>
+                    <h3>Celulares & Tablets</h3>
+                    <p>Celulares, tablets y sus accesorios principales</p>
+                </button>
+                <button class="category-card" onclick="window.location.href='catalog.html?category=camera'">
+                    <div class="category-image-container">
+                        <div class="category-icon-pill">📷</div>
+                        <img src="assets/images/categories/camera.jpg" alt="Cámaras & Fotografía" onerror="this.src='https://picsum.photos/400/300?random=4'">
+                    </div>
+                    <h3>Cámaras & Fotografía</h3>
+                    <p>Cámaras digitales, de acción y accesorios relacionados</p>
+                </button>
+                <button class="category-card" onclick="window.location.href='catalog.html?category=computing'">
+                    <div class="category-image-container">
+                        <div class="category-icon-pill">🖥️</div>
+                        <img src="assets/images/categories/computing.jpg" alt="Computación & Gamer" onerror="this.src='https://picsum.photos/400/300?random=5'">
+                    </div>
+                    <h3>Computación & Gamer</h3>
+                    <p>Teclados, mouse, accesorios gamer, monitores</p>
+                </button>
+                <button class="category-card" onclick="window.location.href='catalog.html?category=tv'">
+                    <div class="category-image-container">
+                        <div class="category-icon-pill">📺</div>
+                        <img src="assets/images/categories/tv.jpg" alt="Imagen & TV" onerror="this.src='https://picsum.photos/400/300?random=6'">
+                    </div>
+                    <h3>Imagen & TV</h3>
+                    <p>Televisores, proyectores, accesorios de video</p>
+                </button>
+            </div>
+            <div class="catalog-cta">
+                <button onclick="window.location.href='catalog.html'" class="catalog-button">Ver más</button>
+            </div>
+        </div>
+    </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Nuestro Servicio</h2>
+                <p class="subtitle">Queremos que tu experiencia con nosotros sea simple, rápida y efectiva. Importamos directo, cuidamos la calidad y estamos siempre disponibles para lo que necesites.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <span>📦</span>
+                        </div>
+                        <div class="service-content">
+                            <h3>Importación directa</h3>
+                            <p>Trabajamos sin intermediarios, lo que nos permite ofrecerte precios competitivos y un catálogo siempre actualizado.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <span>🔄</span>
+                        </div>
+                        <div class="service-content">
+                            <h3>Stock asegurado</h3>
+                            <p>Contamos con productos listos para entrega, evitando demoras y dándote previsibilidad en tus compras.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <span>🙌</span>
+                        </div>
+                        <div class="service-content">
+                            <h3>Atención personalizada</h3>
+                            <p>Hablás siempre con alguien de nuestro equipo, por mail o WhatsApp. Te respondemos rápido y buscamos soluciones para tu negocio.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <span>✅</span>
+                        </div>
+                        <div class="service-content">
+                            <h3>Calidad garantizada</h3>
+                            <p>Revisamos cada producto antes de salir. Tu tranquilidad es la base de nuestra relación.</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="document.getElementById('how-to-buy').scrollIntoView({behavior: 'smooth'})" class="cta-button">Cómo comprar</button>
+            </div>
+        </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <p class="subtitle">La satisfacción de nuestros clientes es nuestra prioridad. Conoce sus experiencias.</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Excelente servicio y productos de calidad. La atención al cliente es excepcional y siempre están disponibles para resolver cualquier duda."</p>
+                    <div class="review-author">
+                        <h4>María González</h4>
+                        <span>Empresaria</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Llevo años comprando con Dinax y nunca me han defraudado. Productos originales, precios justos y entrega rápida."</p>
+                    <div class="review-author">
+                        <h4>Carlos Rodríguez</h4>
+                        <span>Comerciante</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"El mejor proveedor que he tenido. Su catálogo es amplio y siempre tienen lo que necesito. Muy recomendado."</p>
+                    <div class="review-author">
+                        <h4>Ana Martínez</h4>
+                        <span>Distribuidora</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section class="how-to-buy" id="how-to-buy">
+        <div class="container">
+            <h2>Cómo comprar</h2>
+            <p class="subtitle">Un proceso simple y transparente para que tengas tus productos sin vueltas.</p>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Explora nuestro catálogo</h3>
+                    <p>Mirá nuestro catálogo online y armá tu lista de productos según lo que quieras sumar a tu negocio.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Contactá con nosotros</h3>
+                    <p>Mandanos un WhatsApp o un mail con tu pedido. Te respondemos rápido con el presupuesto detallado y las opciones de entrega.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Recibí tu cotización</h3>
+                    <p>Cuando des el OK, procesamos tu pedido y coordinamos el envío. Vos solo tenés que esperar la entrega.</p>
+                </div>
+            </div>
+            <div class="contact-cta">
+                <h3>¿Listo para empezar?</h3>
+                <p>Contactanos ahora y recibí una cotización personalizada</p>
+                <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="cta-button">Contactar ahora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Nosotros</h2>
+                    <p>En Dinax, llevamos más de 10 años comprometidos con la excelencia y la satisfacción del cliente. Nuestra misión es proporcionar productos de la más alta calidad a precios competitivos.</p>
+                    <p>Nos especializamos en ofrecer una amplia gama de productos que van desde electrónicos hasta artículos para el hogar, siempre manteniendo nuestros estándares de calidad y servicio al cliente.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Años de experiencia</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1000+</h3>
+                            <p>Clientes satisfechos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Productos disponibles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/about/about-us.jpg" alt="About Us" onerror="this.src='https://picsum.photos/500/400?random=about'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p class="subtitle">¿Querés recibir el catálogo o hablar con un asesor? <br>Escribinos, estamos para ayudarte.</p>
+            <div class="contact-info">
+                <a class="contact-link" href="mailto:ventas@dynax.com"><div class="contact-item">
+                    <span>📧</span>
+                    <h3>Email</h3>
+                    <p>ventas@dinax.com</p>
+                </div>
+                </a>
+                <a class="contact-link" href="https://wa.me/5491160143859"><div class="contact-item" target="_blank">
+                    <span>📱</span>
+                    <h3>WhatsApp</h3>
+                    +54 9 11 1234-5678
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <button class="whatsapp-float" onclick="window.open('https://wa.me/5491160143859?text=Hola! Quiero más info sobre sus productos', '_blank')" title="Contactar por WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.445 4.436-9.868 9.888-9.868 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.445-4.437 9.868-9.885 9.868m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dinax</h3>
+                    <p> Importadora y distribuidora mayorista de productos de tecnología</p> <br>
+                    <p>Buenos Aires, Argentina</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="catalog.html">Catálogo</a></li>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/grupodinax">Facebook</a>
+                        <a href="https://www.instagram.com/grupodinax/">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Grupo Dinax. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
