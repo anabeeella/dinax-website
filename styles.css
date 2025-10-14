@@ -187,16 +187,15 @@ body {
     height: 70px;
 }
 
-.nav-logo h2 {
-    font-weight: 700;
-    font-size: 1.8rem;
-    color: #000000;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
     gap: 2rem;
+}
+
+.nav-logo img {
+    background-color: transparent;
+    background-image: none;
 }
 
 .nav-link {
@@ -949,6 +948,12 @@ body {
 
 .footer-section ul li a:hover {
     color: var(--white);
+}
+
+.footer-logo {
+    background-color: transparent;
+    background-image: none;
+    margin-bottom: var(--spacing-sm);
 }
 
 .social-links {
