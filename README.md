@@ -97,3 +97,28 @@ The `data/products.json` file contains:
 - Product data is loaded dynamically from `data/products.json`
 - Fallback images are provided if local images fail to load
 - The site is fully functional without external dependencies
+
+## 🔄 Actualización Automática de Productos
+
+El archivo `products.json` se genera desde `products-list.xlsx`. Para mantenerlo actualizado automáticamente:
+
+### Opción 1: Monitoreo Automático (Recomendado)
+
+1. Instala las dependencias:
+   ```bash
+   pip install watchdog openpyxl
+   ```
+
+2. Ejecuta el script de monitoreo:
+   ```bash
+   python3 watch_excel.py
+   ```
+
+   Este script observará el archivo Excel y convertirá automáticamente a JSON cada vez que lo modifiques. Presiona `Ctrl+C` para detenerlo.
+
+### Opción 2: Conversión Manual
+
+Ejecuta manualmente cuando necesites actualizar:
+   ```bash
+   python3 convert_xlsx_to_json.py
+   ```

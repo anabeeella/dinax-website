@@ -12,17 +12,8 @@ async function loadProductsData() {
         return data;
     } catch (error) {
         console.error('Error loading products data:', error);
-        // Fallback to sample data if JSON fails to load
-        return {
-            products: sampleProducts,
-            categories: [
-                { id: "electronics", name: "Electrónicos", description: "Los últimos dispositivos tecnológicos", image: "https://picsum.photos/300/200?random=2" },
-                { id: "home", name: "Hogar", description: "Artículos para el hogar", image: "https://picsum.photos/300/200?random=3" },
-                { id: "sports", name: "Deportes", description: "Equipamiento deportivo", image: "https://picsum.photos/300/200?random=4" },
-                { id: "clothing", name: "Ropa", description: "Moda y vestimenta", image: "https://picsum.photos/300/200?random=5" }
-            ]
+
         };
-    }
 }
 
 document.addEventListener('DOMContentLoaded', async function() {
@@ -65,52 +56,6 @@ document.addEventListener('DOMContentLoaded', async function() {
                 // Update main image
                 mainImage.src = this.src.replace('100/100', '500/500');
             });
-        });
-    }
-
-    // Product Options (Size, Color, Quantity)
-    const sizeButtons = document.querySelectorAll('.size-btn');
-    const colorButtons = document.querySelectorAll('.color-btn');
-    const quantityInput = document.getElementById('quantity');
-    const decreaseBtn = document.getElementById('decrease-qty');
-    const increaseBtn = document.getElementById('increase-qty');
-
-    // Size selection
-    if (sizeButtons) {
-        sizeButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                sizeButtons.forEach(btn => btn.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
-    }
-
-    // Color selection
-    if (colorButtons) {
-        colorButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                colorButtons.forEach(btn => btn.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
-    }
-
-    // Quantity controls
-    if (decreaseBtn && quantityInput) {
-        decreaseBtn.addEventListener('click', function() {
-            let currentValue = parseInt(quantityInput.value);
-            if (currentValue > 1) {
-                quantityInput.value = currentValue - 1;
-            }
-        });
-    }
-
-    if (increaseBtn && quantityInput) {
-        increaseBtn.addEventListener('click', function() {
-            let currentValue = parseInt(quantityInput.value);
-            if (currentValue < 10) {
-                quantityInput.value = currentValue + 1;
-            }
         });
     }
 
@@ -159,41 +104,6 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
     }
 
-    // Add to Cart and Buy Now buttons
-    const addToCartBtn = document.getElementById('add-to-cart');
-    const buyNowBtn = document.getElementById('buy-now');
-    const wishlistBtn = document.getElementById('add-to-wishlist');
-
-    if (addToCartBtn) {
-        addToCartBtn.addEventListener('click', function() {
-            const quantity = document.getElementById('quantity').value;
-            const selectedSize = document.querySelector('.size-btn.active')?.textContent || 'N/A';
-            const selectedColor = document.querySelector('.color-btn.active')?.style.backgroundColor || 'N/A';
-            
-            alert(`Información del producto:\n- Cantidad: ${quantity}\n- Talla: ${selectedSize}\n- Color: ${selectedColor}\n\n¡Contáctanos para más información!`);
-        });
-    }
-
-    if (buyNowBtn) {
-        buyNowBtn.addEventListener('click', function() {
-            alert('¡Gracias por tu interés! Te contactaremos pronto con más información sobre este producto.');
-        });
-    }
-
-    if (wishlistBtn) {
-        wishlistBtn.addEventListener('click', function() {
-            this.style.backgroundColor = '#ff6b6b';
-            this.style.color = '#ffffff';
-            this.textContent = '❤️ Agregado';
-            
-            setTimeout(() => {
-                this.style.backgroundColor = 'transparent';
-                this.style.color = '#000000';
-                this.textContent = '❤️ Lista de Deseos';
-            }, 2000);
-        });
-    }
-
     // Generate Products for Catalog
     generateProducts();
     
@@ -203,82 +113,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Load related products
     loadRelatedProducts();
 });
-
-// Sample Products Data
-const sampleProducts = [
-    {
-        id: 1,
-        name: "Smartphone Pro Max",
-        price: 599.99,
-        originalPrice: 699.99,
-        category: "electronics",
-        image: "https://picsum.photos/300/200?random=30",
-        description: "El smartphone más avanzado del mercado"
-    },
-    {
-        id: 2,
-        name: "Sofá Moderno",
-        price: 899.99,
-        originalPrice: 1099.99,
-        category: "home",
-        image: "https://picsum.photos/300/200?random=31",
-        description: "Sofá cómodo y elegante para tu hogar"
-    },
-    {
-        id: 3,
-        name: "Zapatillas Deportivas",
-        price: 129.99,
-        originalPrice: 159.99,
-        category: "sports",
-        image: "https://picsum.photos/300/200?random=32",
-        description: "Zapatillas ideales para correr y entrenar"
-    },
-    {
-        id: 4,
-        name: "Camiseta Premium",
-        price: 49.99,
-        originalPrice: 69.99,
-        category: "clothing",
-        image: "https://picsum.photos/300/200?random=33",
-        description: "Camiseta de algodón 100% orgánico"
-    },
-    {
-        id: 5,
-        name: "Laptop Gaming",
-        price: 1299.99,
-        originalPrice: 1499.99,
-        category: "electronics",
-        image: "https://picsum.photos/300/200?random=34",
-        description: "Laptop de alto rendimiento para gaming"
-    },
-    {
-        id: 6,
-        name: "Mesa de Centro",
-        price: 299.99,
-        originalPrice: 399.99,
-        category: "home",
-        image: "https://picsum.photos/300/200?random=35",
-        description: "Mesa de centro moderna y funcional"
-    },
-    {
-        id: 7,
-        name: "Pelota de Fútbol",
-        price: 39.99,
-        originalPrice: 49.99,
-        category: "sports",
-        image: "https://picsum.photos/300/200?random=36",
-        description: "Pelota oficial para fútbol profesional"
-    },
-    {
-        id: 8,
-        name: "Chaqueta de Cuero",
-        price: 199.99,
-        originalPrice: 249.99,
-        category: "clothing",
-        image: "https://picsum.photos/300/200?random=37",
-        description: "Chaqueta de cuero genuino de alta calidad"
-    }
-];
 
 // Function to render products in the catalog
 function renderProducts(products = productsData) {
@@ -317,14 +151,14 @@ function createProductCard(product) {
     
     productCard.innerHTML = `
         <div class="product-image-container">
-            <img src="${product.image}" alt="${product.name}" onerror="this.src='https://picsum.photos/400/300?random=${product.id}'">
+            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" onerror="this.src='https://picsum.photos/400/300?random=${product.id}'">
             <div class="product-category-badge">${getCategoryName(product.category)}</div>
         </div>
         <div class="product-info">
             <h3>${product.name}</h3>
-            <p>${product.description}</p>
+            ${product.description ? `<p>${product.description}</p>` : ''}
             <div class="product-features-preview">
-                ${product.features ? product.features.slice(0, 2).map(feature => `<span class="feature-tag">${feature}</span>`).join('') : ''}
+                ${product.details ? product.details.map(detail => `<span class="feature-tag">${detail}</span>`).join('') : ''}
             </div>
             <span class="category-link">Ver Detalles</span>
         </div>
@@ -342,6 +176,64 @@ function createProductCard(product) {
 function getCategoryName(categoryId) {
     const category = categoriesData.find(cat => cat.id === categoryId);
     return category ? category.name : categoryId;
+}
+
+// Helper function to convert image path to _main version for product cards
+function getMainImagePath(imagePath) {
+    if (!imagePath) return imagePath;
+    
+    // Extract directory, base name, and extension
+    const parts = imagePath.split('/');
+    const filename = parts[parts.length - 1];
+    const directory = parts.slice(0, parts.length - 1).join('/');
+    
+    // Remove any number at the end and extension (e.g., "cam-ip1.png" -> "cam-ip")
+    const baseMatch = filename.match(/^(.+?)(\d*)(\.[^.]+)$/);
+    if (!baseMatch) return imagePath;
+    
+    const baseName = baseMatch[1];
+    const extension = baseMatch[3];
+    
+    // Create _main version
+    const mainFilename = `${baseName}_main${extension}`;
+    return `${directory}/${mainFilename}`;
+}
+
+// Helper function to get all image variants for product details
+function getImageVariants(images) {
+    // If images is already an array, return it directly (excluding _main images)
+    if (Array.isArray(images)) {
+        // Filter out _main images and return the rest
+        return images.filter(img => !img.includes('_main'));
+    }
+    
+    // Legacy: if it's a single image path string, try to generate variants
+    if (!images) return [];
+    
+    // Extract directory, base name, and extension
+    const parts = images.split('/');
+    const filename = parts[parts.length - 1];
+    const directory = parts.slice(0, parts.length - 1).join('/');
+    
+    // Remove any number at the end and extension (e.g., "cam-ip1.png" -> "cam-ip")
+    const baseMatch = filename.match(/^(.+?)(\d*)(\.[^.]+)$/);
+    if (!baseMatch) return [images];
+    
+    const baseName = baseMatch[1];
+    const extension = baseMatch[3];
+    
+    // Build array of possible variants: base, base1, base2, etc.
+    const variants = [];
+    
+    // Add base version (name.png)
+    variants.push(`${directory}/${baseName}${extension}`);
+    
+    // Add numbered variants (name1.png, name2.png, etc.) up to 10
+    for (let i = 1; i <= 10; i++) {
+        variants.push(`${directory}/${baseName}${i}${extension}`);
+    }
+    
+    return variants;
 }
 
 // Legacy function for backward compatibility
@@ -400,7 +292,7 @@ function loadRelatedProducts() {
         const relatedCard = document.createElement('button');
         relatedCard.className = 'related-product-card';
         relatedCard.innerHTML = `
-            <img src="${product.image}" alt="${product.name}" onerror="this.src='https://picsum.photos/400/300?random=${product.id}'">
+            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" onerror="this.src='https://picsum.photos/400/300?random=${product.id}'">
             <h3>${product.name}</h3>
         `;
         
@@ -425,31 +317,162 @@ function loadProductDetails() {
     
     // Update product information
     document.getElementById('product-title').textContent = product.name;
-    document.getElementById('product-description').textContent = product.description;
     
-    // Update features
+    // Update description only if it exists
+    const productDescriptionElement = document.getElementById('product-description');
+    if (productDescriptionElement) {
+        if (product.description) {
+            productDescriptionElement.textContent = product.description;
+            productDescriptionElement.parentElement.style.display = 'block';
+        } else {
+            productDescriptionElement.parentElement.style.display = 'none';
+        }
+    }
+    
+    // Update features (details)
     const featuresList = document.getElementById('product-features');
-    if (featuresList && product.features) {
+    if (featuresList && product.details) {
         featuresList.innerHTML = '';
-        product.features.forEach(feature => {
+        product.details.forEach(detail => {
             const li = document.createElement('li');
-            li.textContent = feature;
+            li.textContent = detail;
             featuresList.appendChild(li);
         });
     }
     
-    // Update main image
-    const mainImage = document.getElementById('main-product-image');
-    if (mainImage) {
-        mainImage.src = product.image;
+    // Update specifications table (features)
+    const specificationsContent = document.getElementById('specifications-content');
+    if (specificationsContent) {
+        if (product.features && product.features.length > 0) {
+            const table = document.createElement('table');
+            table.className = 'specifications-table';
+            table.id = 'specifications-table';
+            
+            product.features.forEach(feature => {
+                const row = document.createElement('tr');
+                const cells = feature.split(':').map(text => text.trim());
+                
+                if (cells.length === 2) {
+                    // If feature has "Key: Value" format, split into two columns
+                    row.innerHTML = `
+                        <td>${cells[0]}</td>
+                        <td>${cells[1]}</td>
+                    `;
+                } else {
+                    // Otherwise, show in single cell
+                    row.innerHTML = `<td colspan="2">${feature}</td>`;
+                }
+                
+                table.appendChild(row);
+            });
+            
+            specificationsContent.innerHTML = '';
+            specificationsContent.appendChild(table);
+        } else {
+            specificationsContent.innerHTML = '<p>No hay especificaciones técnicas disponibles</p>';
+        }
     }
     
-    // Update thumbnails
-    const thumbnails = document.querySelectorAll('.thumbnail');
-    if (thumbnails.length > 0 && product.image) {
-        thumbnails[0].src = product.image;
-        thumbnails[0].classList.add('active');
+    // Get all images for product details (INCLUDE _main images)
+    const allImages = product.images && product.images.length > 0 ? product.images : 
+                     (product.image ? [product.image] : []);
+    
+    // Get the product images container
+    const productImagesContainer = document.querySelector('.product-images');
+    const mainImage = document.getElementById('main-product-image');
+    const thumbnailContainer = document.querySelector('.thumbnail-images');
+    
+    if (!productImagesContainer) {
+        return; // Container doesn't exist, skip
     }
+    
+    // Hide container initially
+    productImagesContainer.style.display = 'none';
+    
+    // Get images to check (include ALL images including _main)
+    const imagesToCheck = allImages;
+    
+    if (imagesToCheck.length === 0) {
+        // No images to check, keep container hidden
+        return;
+    }
+    
+    // Remove onerror handlers to prevent fallback images
+    if (mainImage) {
+        mainImage.removeAttribute('onerror');
+        mainImage.style.display = 'none';
+    }
+    
+    if (thumbnailContainer) {
+        thumbnailContainer.innerHTML = '';
+    }
+    
+    // Track which images successfully load
+    const validImages = [];
+    let checkedCount = 0;
+    
+    // Check each image to see if it exists
+    const checkImageExists = (imagePath, callback) => {
+        const img = new Image();
+        img.onload = function() {
+            callback(true, imagePath);
+        };
+        img.onerror = function() {
+            callback(false, imagePath);
+        };
+        img.src = imagePath;
+    };
+    
+    // Check all images
+    imagesToCheck.forEach((imagePath) => {
+        checkImageExists(imagePath, (exists) => {
+            checkedCount++;
+            if (exists) {
+                validImages.push(imagePath);
+            }
+            
+            // When all images have been checked
+            if (checkedCount === imagesToCheck.length) {
+                if (validImages.length > 0) {
+                    // Show container and display images
+                    productImagesContainer.style.display = '';
+                    
+                    // Set main image
+                    if (mainImage) {
+                        mainImage.src = validImages[0];
+                        mainImage.style.display = 'block';
+                    }
+                    
+                    // Create thumbnails
+                    if (thumbnailContainer) {
+                        validImages.forEach((imagePath, index) => {
+                            const thumbnail = document.createElement('img');
+                            thumbnail.className = 'thumbnail';
+                            thumbnail.src = imagePath;
+                            thumbnail.alt = `${product.name} - Vista ${index + 1}`;
+                            
+                            // Set first thumbnail as active
+                            if (index === 0) {
+                                thumbnail.classList.add('active');
+                            }
+                            
+                            // Add click event to switch main image
+                            thumbnail.addEventListener('click', function() {
+                                document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+                                this.classList.add('active');
+                                if (mainImage) {
+                                    mainImage.src = this.src;
+                                }
+                            });
+                            
+                            thumbnailContainer.appendChild(thumbnail);
+                        });
+                    }
+                }
+                // If no valid images, container stays hidden (display: none)
+            }
+        });
+    });
     
     // Update breadcrumb
     const breadcrumbProduct = document.getElementById('breadcrumb-product');
@@ -462,6 +485,7 @@ function loadProductDetails() {
 function filterProducts() {
     const activeCategoryBtn = document.querySelector('.category-btn.active');
     const sortFilter = document.getElementById('sort-select');
+    const searchInput = document.getElementById('search-input');
     
     if (!activeCategoryBtn || !sortFilter || !productsData.length) return;
 
@@ -471,6 +495,17 @@ function filterProducts() {
     const selectedCategory = activeCategoryBtn.getAttribute('data-category');
     if (selectedCategory !== 'all') {
         filteredProducts = filteredProducts.filter(product => product.category === selectedCategory);
+    }
+
+    // Filter by search term
+    const searchTerm = searchInput ? searchInput.value.trim() : '';
+    if (searchTerm) {
+        filteredProducts = filteredProducts.filter(product => 
+            (product.name && product.name.toLowerCase().includes(searchTerm.toLowerCase())) ||
+            (product.description && product.description.toLowerCase().includes(searchTerm.toLowerCase())) ||
+            (product.category && product.category.toLowerCase().includes(searchTerm.toLowerCase())) ||
+            (product.code && product.code.toLowerCase().includes(searchTerm.toLowerCase()))
+        );
     }
 
     // Sort products
@@ -488,22 +523,6 @@ function filterProducts() {
     }
 
     // Render filtered products
-    renderProducts(filteredProducts);
-}
-
-// Search products function
-function searchProducts(searchTerm) {
-    if (!searchTerm || !productsData.length) {
-        renderProducts();
-        return;
-    }
-
-    const filteredProducts = productsData.filter(product => 
-        product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.category.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-
     renderProducts(filteredProducts);
 }
 
@@ -530,7 +549,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (searchInput) {
         searchInput.addEventListener('input', function() {
-            searchProducts(this.value);
+            filterProducts();
         });
     }
 });

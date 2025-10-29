@@ -2,380 +2,415 @@
   "products": [
     {
       "id": 1,
-      "name": "Smartphone Pro Max",
-      "category": "mobile",
-      "image": "assets/images/products/smartphone.jpg",
-      "description": "El smartphone más avanzado del mercado con tecnología de última generación",
-      "features": [
-        "Pantalla OLED de 6.7 pulgadas",
-        "Cámara de 108MP con zoom óptico",
-        "Procesador A17 Pro",
-        "Batería de 5000mAh",
-        "Resistente al agua IP68"
+      "category": "camera",
+      "name": "Cámara IP de doble antena",
+      "code": "DX-IPCAMDIG",
+      "description": "Cámara de seguridad exterior con sensor de movimiento",
+      "details": [
+        "Controla a través de aplicación",
+        "Sensor de movimiento",
+        "Visión nocturna",
+        "Conexión Wi-Fi"
       ],
-      "specifications": {
-        "Pantalla": "6.7 pulgadas OLED",
-        "Procesador": "A17 Pro",
-        "Memoria": "256GB",
-        "RAM": "8GB",
-        "Cámara": "108MP + 12MP + 12MP",
-        "Batería": "5000mAh",
-        "Peso": "221g",
-        "Dimensiones": "159.9 x 76.7 x 8.25 mm"
-      }
+      "features": [
+        "Potencia: 1200 watts",
+        "Conexión: Wi-Fi"
+      ],
+      "images": [
+        "assets/images/products/DX-IPCAMDIG_main.png",
+        "assets/images/products/DX-IPCAMDIG0.png",
+        "assets/images/products/DX-IPCAMDIG1.png"
+      ]
     },
     {
       "id": 2,
-      "name": "Sofá Moderno 3 Plazas",
-      "category": "home",
-      "image": "assets/images/products/sofa.jpg",
-      "description": "Sofá cómodo y elegante para tu hogar con diseño contemporáneo",
-      "features": [
-        "Tapizado en tela premium",
-        "Estructura de madera maciza",
-        "Cojines desenfundables",
-        "Patas de metal cromado",
-        "Fácil montaje"
+      "category": "electronics",
+      "name": "Kit cámaras de seguridad",
+      "code": "DX-DVRX4P",
+      "description": "Kit de 4 cámaras con DVR",
+      "details": [
+        "Alarma de aviso",
+        "Visión nocturna",
+        "Rotación de cámara"
       ],
-      "specifications": {
-        "Material": "Tela premium + Madera maciza",
-        "Dimensiones": "200 x 90 x 85 cm",
-        "Peso": "45 kg",
-        "Capacidad": "3 personas",
-        "Color": "Gris antracita",
-        "Garantía": "2 años"
-      }
+      "images": [
+        "assets/images/products/DX-DVRX4P_main.png",
+        "assets/images/products/DX-DVRX4P0.png",
+        "assets/images/products/DX-DVRX4P1.png"
+      ]
     },
     {
       "id": 3,
-      "name": "Cámara Digital Profesional",
-      "category": "camera",
-      "image": "assets/images/products/camera.jpg",
-      "description": "Cámara digital profesional con sensor de alta resolución y grabación 4K",
-      "features": [
-        "Sensor de 24.2MP",
-        "Grabación 4K a 30fps",
-        "Pantalla táctil de 3 pulgadas",
-        "Estabilización de imagen",
-        "WiFi y Bluetooth integrados"
-      ],
-      "specifications": {
-        "Sensor": "24.2MP CMOS",
-        "Video": "4K 30fps",
-        "Pantalla": "3\" táctil",
-        "Peso": "650g",
-        "Batería": "1200 disparos",
-        "Garantía": "2 años"
-      }
+      "category": "electronics",
+      "name": "Cámara de seguridad",
+      "code": "DX-CAM9689P",
+      "images": [
+        "assets/images/categories/cat-electronics.png"
+      ]
     },
     {
       "id": 4,
-      "name": "Monitor Gaming 27\"",
-      "category": "tv",
-      "image": "assets/images/products/monitor.jpg",
-      "description": "Monitor gaming de 27 pulgadas con alta frecuencia de actualización y resolución 4K",
-      "features": [
-        "Pantalla 27\" 4K UHD",
-        "144Hz de frecuencia",
-        "Tiempo de respuesta 1ms",
-        "HDR10 compatible",
-        "Conexiones múltiples"
-      ],
-      "specifications": {
-        "Tamaño": "27 pulgadas",
-        "Resolución": "3840x2160",
-        "Frecuencia": "144Hz",
-        "Tiempo respuesta": "1ms",
-        "Conexiones": "HDMI, DisplayPort, USB-C",
-        "Garantía": "3 años"
-      }
+      "category": "home",
+      "name": "Máquina de donas",
+      "code": "SAN-700A",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 5,
-      "name": "Laptop Gaming Pro",
-      "category": "computing",
-      "image": "assets/images/products/laptop.jpg",
-      "description": "Laptop de alto rendimiento para gaming y trabajo profesional",
-      "features": [
-        "Procesador Intel i7 de 12va generación",
-        "Tarjeta gráfica RTX 4060",
-        "Pantalla 15.6\" Full HD 144Hz",
-        "16GB RAM DDR4",
-        "SSD 512GB NVMe"
-      ],
-      "specifications": {
-        "Procesador": "Intel Core i7-12700H",
-        "GPU": "NVIDIA RTX 4060 8GB",
-        "RAM": "16GB DDR4-3200",
-        "Almacenamiento": "512GB SSD NVMe",
-        "Pantalla": "15.6\" FHD 144Hz",
-        "Peso": "2.3 kg",
-        "Batería": "90Wh"
-      }
+      "category": "home",
+      "name": "Waflera eléctrica",
+      "code": "SAN-700B",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 6,
-      "name": "Mesa de Centro Moderna",
       "category": "home",
-      "image": "assets/images/products/coffee-table.jpg",
-      "description": "Mesa de centro moderna y funcional con almacenamiento",
-      "features": [
-        "Madera de roble macizo",
-        "Cajón con sistema de deslizamiento suave",
-        "Acabado en barniz natural",
-        "Patas de metal negro",
-        "Fácil montaje"
-      ],
-      "specifications": {
-        "Material": "Roble macizo + Metal",
-        "Dimensiones": "120 x 60 x 45 cm",
-        "Peso": "25 kg",
-        "Color": "Roble natural",
-        "Acabado": "Barniz mate",
-        "Garantía": "3 años"
-      }
+      "name": "Cafetera Expresso Vintage",
+      "code": "CAF-800BA1",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 7,
-      "name": "Tablet Pro 10.9\"",
-      "category": "mobile",
-      "image": "assets/images/products/tablet.jpg",
-      "description": "Tablet profesional de 10.9 pulgadas con pantalla Retina y procesador A14 Bionic",
-      "features": [
-        "Pantalla Retina de 10.9 pulgadas",
-        "Procesador A14 Bionic",
-        "Cámara trasera de 12MP",
-        "Batería de hasta 10 horas",
-        "Soporte para Apple Pencil"
-      ],
-      "specifications": {
-        "Pantalla": "10.9\" Retina",
-        "Procesador": "A14 Bionic",
-        "Almacenamiento": "64GB",
-        "Cámara": "12MP trasera + 7MP frontal",
-        "Batería": "Hasta 10 horas",
-        "Garantía": "1 año"
-      }
+      "category": "home",
+      "name": "Arrocera eléctrica 3l 700w",
+      "code": "ARRVAPWH",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 8,
-      "name": "Teclado Mecánico Gaming",
-      "category": "computing",
-      "image": "assets/images/products/keyboard.jpg",
-      "description": "Teclado mecánico gaming con switches RGB y retroiluminación personalizable",
-      "features": [
-        "Switches mecánicos RGB",
-        "Retroiluminación personalizable",
-        "Cable desmontable",
-        "Reposamuñecas incluido",
-        "Compatibilidad multiplataforma"
-      ],
-      "specifications": {
-        "Tipo": "Mecánico",
-        "Switches": "RGB personalizables",
-        "Conexión": "USB-C",
-        "Peso": "1.2 kg",
-        "Compatibilidad": "Windows, Mac, Linux",
-        "Garantía": "2 años"
-      }
+      "category": "home",
+      "name": "Batidora planetaria vintage",
+      "code": "DX-CAF1200",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 9,
-      "name": "Auriculares Inalámbricos Pro",
-      "category": "audio",
-      "image": "assets/images/products/headphones.jpg",
-      "description": "Auriculares inalámbricos con cancelación de ruido y sonido de alta fidelidad",
-      "features": [
-        "Cancelación activa de ruido",
-        "Batería de 30 horas",
-        "Carga rápida inalámbrica",
-        "Resistente al agua IPX4",
-        "Micrófono con reducción de ruido"
-      ],
-      "specifications": {
-        "Tipo": "Inalámbricos",
-        "Batería": "30 horas",
-        "Conexión": "Bluetooth 5.0",
-        "Peso": "250g",
-        "Resistencia": "IPX4",
-        "Garantía": "1 año"
-      }
+      "category": "home",
+      "name": "Cafetera de filtro",
+      "code": "BAR-CFE1200BL",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 10,
-      "name": "Lámpara de Mesa LED",
       "category": "home",
-      "image": "assets/images/products/lamp.jpg",
-      "description": "Lámpara de mesa LED moderna con control de intensidad y temperatura de color",
-      "features": [
-        "LED de alta eficiencia",
-        "Control de intensidad",
-        "Temperatura de color ajustable",
-        "Base estable de metal",
-        "Diseño minimalista"
-      ],
-      "specifications": {
-        "Tipo": "LED",
-        "Potencia": "12W",
-        "Material": "Metal + Plástico",
-        "Altura": "45 cm",
-        "Control": "Táctil",
-        "Garantía": "2 años"
-      }
+      "name": "Freidora eléctrica",
+      "code": "DX-AFR2000W",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 11,
-      "name": "Smart TV 55\" 4K",
-      "category": "tv",
-      "image": "assets/images/products/smart-tv.jpg",
-      "description": "Smart TV de 55 pulgadas con resolución 4K, HDR y sistema operativo Android TV",
-      "features": [
-        "Pantalla 55\" 4K UHD",
-        "Tecnología HDR10+",
-        "Android TV integrado",
-        "WiFi y Bluetooth",
-        "Control por voz"
-      ],
-      "specifications": {
-        "Tamaño": "55 pulgadas",
-        "Resolución": "3840x2160",
-        "HDR": "HDR10+",
-        "Sistema": "Android TV",
-        "Conexiones": "4x HDMI, 2x USB, Ethernet",
-        "Garantía": "2 años"
-      }
+      "category": "home",
+      "name": "Freidora de aire 7l 1400w",
+      "code": "AFX-14Z1",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 12,
-      "name": "Mouse Gaming RGB",
-      "category": "computing",
-      "image": "assets/images/products/mouse.jpg",
-      "description": "Mouse gaming de alta precisión con iluminación RGB y sensor óptico avanzado",
-      "features": [
-        "Sensor óptico 16000 DPI",
-        "Iluminación RGB personalizable",
-        "6 botones programables",
-        "Cable paracord",
-        "Peso ajustable"
-      ],
-      "specifications": {
-        "Sensor": "Óptico 16000 DPI",
-        "Botones": "6 programables",
-        "Conexión": "USB",
-        "Peso": "85g (ajustable)",
-        "Compatibilidad": "Windows, Mac, Linux",
-        "Garantía": "2 años"
-      }
+      "category": "home",
+      "name": "Juguera eléctrica 400w",
+      "code": "EXT-EJ001SL",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 13,
-      "name": "Cable USB-C Premium",
-      "category": "electronics",
-      "image": "assets/images/products/usb-cable.jpg",
-      "description": "Cable USB-C de alta calidad con carga rápida y transferencia de datos",
-      "features": [
-        "Carga rápida hasta 100W",
-        "Transferencia de datos USB 3.1",
-        "Cable de 2 metros",
-        "Conectores dorados",
-        "Cubierta de nylon trenzado"
-      ],
-      "specifications": {
-        "Tipo": "USB-C a USB-C",
-        "Potencia": "100W",
-        "Velocidad": "USB 3.1 Gen 2",
-        "Longitud": "2 metros",
-        "Material": "Nylon trenzado",
-        "Garantía": "1 año"
-      }
+      "category": "home",
+      "name": "Panchuquera eléctrica",
+      "code": "SAN-700C",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 14,
-      "name": "Parlante Bluetooth Portátil",
-      "category": "audio",
-      "image": "assets/images/products/speaker.jpg",
-      "description": "Parlante Bluetooth portátil con sonido estéreo y resistencia al agua",
-      "features": [
-        "Sonido estéreo 360°",
-        "Resistente al agua IPX7",
-        "Batería de 20 horas",
-        "Carga inalámbrica",
-        "Micrófono integrado"
-      ],
-      "specifications": {
-        "Potencia": "20W RMS",
-        "Batería": "20 horas",
-        "Resistencia": "IPX7",
-        "Conexión": "Bluetooth 5.0",
-        "Peso": "600g",
-        "Garantía": "1 año"
-      }
+      "category": "home",
+      "name": "Tostadora eléctrica de 2 rebanadas",
+      "code": "DX-TOST650",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
     },
     {
       "id": 15,
-      "name": "Cámara de Acción 4K",
-      "category": "camera",
-      "image": "assets/images/products/action-camera.jpg",
-      "description": "Cámara de acción compacta con grabación 4K y estabilización de imagen",
-      "features": [
-        "Grabación 4K a 60fps",
-        "Estabilización de imagen",
-        "Resistente al agua hasta 10m",
-        "Pantalla táctil de 2 pulgadas",
-        "WiFi y GPS integrados"
-      ],
-      "specifications": {
-        "Video": "4K 60fps",
-        "Foto": "12MP",
-        "Pantalla": "2\" táctil",
-        "Resistencia": "10m agua",
-        "Batería": "Hasta 2 horas",
-        "Garantía": "1 año"
-      }
+      "category": "home",
+      "name": "Vaporera eléctrica 8.5l",
+      "code": "VAP-FSP003",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "home",
+      "name": "Yogurtera eléctrica",
+      "code": "DX-YOG20W",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "home",
+      "name": "Anafe eléctrico doble",
+      "code": "ANF-W2200-A51",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "home",
+      "name": "Pava eléctrica corte mate 1.8l",
+      "code": "PAV-PE15006M",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "home",
+      "name": "Sandwichera panini grill eléctrica 700w",
+      "code": "WH-SM700SB-01",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "home",
+      "name": "Cafetera Expresso 1000w",
+      "code": "BAR-CFE1000RD",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "home",
+      "name": "Hervidor de huevos",
+      "code": "DX-HERV360W",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "home",
+      "name": "Sandwichera eléctrica",
+      "code": "SAN-SM700SW-04",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "home",
+      "name": "Freidora de aire",
+      "code": "WKAF405",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "home",
+      "name": "Freidora de aire",
+      "code": "WKAF711",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "home",
+      "name": "Máquina de donas profesional",
+      "code": "SAN-SM700SW-05",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "home",
+      "name": "Santel eléctrica",
+      "code": "DX-SAREL305",
+      "images": [
+        "assets/images/categories/cat-home.png"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "audio",
+      "name": "Parlante 3*8\" 1300w",
+      "code": "PAR130W10",
+      "images": [
+        "assets/images/categories/cat-audio.png"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "audio",
+      "name": "Parlante 8 con micrófono 800w",
+      "code": "DX-PARF1808",
+      "images": [
+        "assets/images/categories/cat-audio.png"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "audio",
+      "name": "Parlante inalámbrico",
+      "code": "DX-PARFS888",
+      "images": [
+        "assets/images/categories/cat-audio.png"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "audio",
+      "name": "Parlante inalámbrico 2*8 - 3\"",
+      "code": "DX-PARCI2X8",
+      "images": [
+        "assets/images/categories/cat-audio.png"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "audio",
+      "name": "Parlante inalámbrico",
+      "code": "PAR60WC3",
+      "images": [
+        "assets/images/categories/cat-audio.png"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "audio",
+      "name": "Parlante inalámbrico",
+      "code": "DX-BLUPAR32",
+      "images": [
+        "assets/images/categories/cat-audio.png"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "audio",
+      "name": "Parlante inalámbrico",
+      "code": "PAR60WC1",
+      "images": [
+        "assets/images/categories/cat-audio.png"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "beauty",
+      "name": "Cortadora de pelo 9w",
+      "code": "CORHCL909",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "beauty",
+      "name": "Cepillo alisador",
+      "code": "PLHCR2213",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "beauty",
+      "name": "Rizador de cabello",
+      "code": "MDL-DNW4001",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "beauty",
+      "name": "Secador de pelo",
+      "code": "SECHD2301",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "beauty",
+      "name": "Combo Cuidador Personal 3 en 1",
+      "code": "CBR-5WA03\nCBR-5WA04\nCBR-5WA05",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "beauty",
+      "name": "Cortadora de pelo profesional 5 en 1",
+      "code": "CBR-5WA01",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "beauty",
+      "name": "Rizador de pelo 2 en 1",
+      "code": "PLHCR2215",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
+    },
+    {
+      "id": 41,
+      "category": "beauty",
+      "name": "Rizador de pelo 2 en 1",
+      "code": "MDL-DNW6001",
+      "images": [
+        "assets/images/categories/cat-beauty.png"
+      ]
     }
   ],
   "categories": [
     {
-      "id": "electronics",
-      "name": "Electrónica & Accesorios",
-      "description": "Cables, cargadores, conectividad, accesorios varios",
-      "image": "assets/images/categories/electronics.jpg"
-    },
-    {
       "id": "audio",
-      "name": "Audio & Sonido",
-      "description": "Parlantes, auriculares, equipos de audio",
-      "image": "assets/images/categories/audio.jpg"
+      "name": "Audio & Sonido"
     },
     {
-      "id": "mobile",
-      "name": "Celulares & Tablets",
-      "description": "Celulares, tablets y sus accesorios principales",
-      "image": "assets/images/categories/mobile.jpg"
+      "id": "beauty",
+      "name": "Productos de Belleza"
     },
     {
       "id": "camera",
-      "name": "Cámaras & Fotografía",
-      "description": "Cámaras digitales, de acción y accesorios relacionados",
-      "image": "assets/images/categories/camera.jpg"
+      "name": "Cámaras & Fotografía"
     },
     {
-      "id": "computing",
-      "name": "Computación & Gamer",
-      "description": "Teclados, mouse, accesorios gamer, monitores",
-      "image": "assets/images/categories/computing.jpg"
-    },
-    {
-      "id": "tv",
-      "name": "Imagen & TV",
-      "description": "Televisores, proyectores, accesorios de video",
-      "image": "assets/images/categories/tv.jpg"
+      "id": "electronics",
+      "name": "Electrónica & Accesorios"
     },
     {
       "id": "home",
-      "name": "Hogar & Movilidad",
-      "description": "Home & Living, iluminación, patinetas eléctricas",
-      "image": "assets/images/categories/home.jpg"
+      "name": "Hogar & Cocina"
     }
   ]
 }
