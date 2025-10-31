@@ -7,13 +7,14 @@
       "code": "DX-IPCAMDIG",
       "description": "Cámara de seguridad exterior con sensor de movimiento",
       "details": [
-        "Controla a través de aplicación",
-        "Sensor de movimiento",
-        "Visión nocturna",
-        "Conexión Wi-Fi"
+        "Doble antena Wi-Fi para conexión estable",
+        "Lente gran angular con alta resolución",
+        "Luces LED e infrarrojas para visión nocturna, Altavoz y micrófono integrados (audio bidireccional)",
+        "Visualización remota desde la app con control completo del video",
+        "Detección de movimiento: envía alertas y notificaciones al teléfono",
+        "Vista en vivo y reproducción de grabaciones desde la interfaz de la aplicación"
       ],
       "features": [
-        "Potencia: 1200 watts",
         "Conexión: Wi-Fi"
       ],
       "images": [
@@ -24,14 +25,20 @@
     },
     {
       "id": 2,
-      "category": "electronics",
+      "category": "camera",
       "name": "Kit cámaras de seguridad",
       "code": "DX-DVRX4P",
       "description": "Kit de 4 cámaras con DVR",
       "details": [
-        "Alarma de aviso",
+        "Sistema completo de videovigilancia (4 cámaras + DVR)",
+        "Grabación 24/7 manual o por detección de movimiento",
         "Visión nocturna",
-        "Rotación de cámara"
+        "Visualización remota desde PC o app móvil",
+        "Interfaz fácil de usar con menú OSD",
+        "Reproducción de video directamente desde el DVR"
+      ],
+      "features": [
+        "Conexión: Wi-Fi"
       ],
       "images": [
         "assets/images/products/DX-DVRX4P_main.png",
@@ -41,11 +48,25 @@
     },
     {
       "id": 3,
-      "category": "electronics",
+      "category": "camera",
       "name": "Cámara de seguridad",
       "code": "DX-CAM9689P",
+      "description": "Cámara de seguridad con monitoreo de alarma",
+      "details": [
+        "Lente de alta resolución con visión panorámica",
+        "Luces LED infrarrojas para visión nocturna",
+        "Altavoz y micrófono integrados para audio bidireccional",
+        "Sensor de movimiento PIR (detección de movimiento)",
+        "Detección de movimiento con alarma sonora",
+        "Conexión Wi-Fi estable con doble antena"
+      ],
+      "features": [
+        "Conexión: Wi-Fi"
+      ],
       "images": [
-        "assets/images/categories/cat-electronics.png"
+        "assets/images/products/DX-CAM9689P_main.png",
+        "assets/images/products/DX-CAM9689P0.png",
+        "assets/images/products/DX-CAM9689P1.png"
       ]
     },
     {
@@ -53,8 +74,20 @@
       "category": "home",
       "name": "Máquina de donas",
       "code": "SAN-700A",
+      "description": "Máquina de donas profesional",
+      "details": [
+        "Permite hornear donas de manera rápida y uniforme sin necesidad de freír",
+        "Produce 7 donas por tanda",
+        "Cuerpo exterior resistente al calor con placas antiadherentes",
+        "Color negro con tapa superior en acero inoxidable cepillado"
+      ],
+      "features": [
+        "Potencia: 700 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/SAN-700A_main.png",
+        "assets/images/products/SAN-700A0.png",
+        "assets/images/products/SAN-700A1.png"
       ]
     },
     {
@@ -62,8 +95,21 @@
       "category": "home",
       "name": "Waflera eléctrica",
       "code": "SAN-700B",
+      "description": "Waflera eléctrica",
+      "details": [
+        "Permite preparar waffles caseros de forma rápida y uniforme, sin necesidad de horno",
+        "Cocción de dos waffles simultáneamente",
+        "Cuerpo exterior resistente al calor, con placas interiores antiadherentes",
+        "Color negro con tapa superior en acero inoxidable cepillado"
+      ],
+      "features": [
+        "Potencia: 700 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/SAN-700B_main.png",
+        "assets/images/products/SAN-700B0.png",
+        "assets/images/products/SAN-700B1.png",
+        "assets/images/products/SAN-700B2.png"
       ]
     },
     {
@@ -71,231 +117,617 @@
       "category": "home",
       "name": "Cafetera Expresso Vintage",
       "code": "CAF-800BA1",
+      "description": "Cafetera espresso vintage",
+      "details": [
+        "Cafetera espresso eléctrica",
+        "Boquilla de vapor metálica con recubrimiento antiquemaduras",
+        "Calentamiento rápido con luces indicadoras de funcionamiento",
+        "Control manual de vapor, mediante perilla lateral",
+        "Boquilla vaporizadora profesional, ideal para espumar leche",
+        "Bandeja superior calienta-tazas",
+        "Depósito de agua extraíble, fácil de llenar y limpiar",
+        "Modo agua caliente para infusiones o té"
+      ],
+      "features": [
+        "Potencia: 800 watts",
+        "Bomba de presión 20 BAR",
+        "Capacidad del tanque de agua: 0.9Lts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/CAF-800BA1_main.png",
+        "assets/images/products/CAF-800BA10.png",
+        "assets/images/products/CAF-800BA11.png"
       ]
     },
     {
       "id": 7,
       "category": "home",
-      "name": "Arrocera eléctrica 3l 700w",
+      "name": "Arrocera eléctrica 2l 700w",
       "code": "ARRVAPWH",
+      "description": "Arrocera eléctrica",
+      "details": [
+        "Olla interior de aluminio antiadherente con tapa de acero inoxidable",
+        "Diseño vcompacto, con asas laterales térmicas, tapa con válvula de vapor y base estable",
+        "Cocción automática, se apaga sola al finalizar y mantiene el arroz caliente",
+        "Calienta rápido con bajo consumo",
+        "Fácil limpieza y operación simple con un solo botón"
+      ],
+      "features": [
+        "Potencia: 700 watts",
+        "Capacidad: 2 Litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/ARRVAPWH_main.png",
+        "assets/images/products/ARRVAPWH0.png",
+        "assets/images/products/ARRVAPWH1.png",
+        "assets/images/products/ARRVAPWH2.png",
+        "assets/images/products/ARRVAPWH3.png"
       ]
     },
     {
       "id": 8,
       "category": "home",
       "name": "Batidora planetaria vintage",
-      "code": "DX-CAF1200",
+      "code": "BAT-PLA800-01",
+      "description": "Batidora planetaria vintage",
+      "details": [
+        "Estilo vintage, con diseño moderno y elegante",
+        "Perilla de control de velocidad",
+        "Cabezal abatible con movimiento orbital",
+        "Tapa del recipiente (protege de salpicaduras)",
+        "Recipiente de acero inoxidable",
+        "Capacidad del bol: 1,5 kg de masa (,5 litros)"
+      ],
+      "features": [
+        "Potencia: 1300 watts",
+        "Capacidad 5 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/BAT-PLA800-01_main.png",
+        "assets/images/products/BAT-PLA800-010.png",
+        "assets/images/products/BAT-PLA800-011.png",
+        "assets/images/products/BAT-PLA800-012.png",
+        "assets/images/products/BAT-PLA800-013.png"
       ]
     },
     {
       "id": 9,
       "category": "home",
       "name": "Cafetera de filtro",
-      "code": "BAR-CFE1200BL",
+      "code": "DX-CAF1200",
+      "description": "Cafetera de filtro",
+      "details": [
+        "Diseño moderno, compacto y funcional",
+        "Jarra de vidrio templado transparente",
+        "Sistema antigoteo, que evita derrames al retirar la jarra durante el uso",
+        "Filtro extraíble y reutilizable, ecológico y fácil de limpiar",
+        "Sistema de seguridad antisecado: detiene el calentamiento si no hay agua"
+      ],
+      "features": [
+        "Potencia: 800 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/DX-CAF1200_main.png",
+        "assets/images/products/DX-CAF12000.png",
+        "assets/images/products/DX-CAF12001.png"
       ]
     },
     {
       "id": 10,
       "category": "home",
-      "name": "Freidora eléctrica",
-      "code": "DX-AFR2000W",
+      "name": "Cafetera espersso",
+      "code": "BAR-CFE1200BL",
+      "description": "Cafetera espersso",
+      "details": [
+        "Cuerpo de acero inoxidable y plástico resistente al calor",
+        "Tubo de vapor metálico con boquilla de acero",
+        "Prepara café espresso, cappuccino y leche vaporizada",
+        "Sistema de calentamiento rápido con control térmico automático",
+        "Bandeja superior para precalentar tazas",
+        "Perilla de vapor regulable, para ajustar la intensidad al espumar leche"
+      ],
+      "features": [
+        "Potencia: 1200 watts: Bomba de presión 20 BAR",
+        "Capacidad del depósito de agua: 1,2 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/BAR-CFE1200BL_main.png",
+        "assets/images/products/BAR-CFE1200BL0.png",
+        "assets/images/products/BAR-CFE1200BL1.png",
+        "assets/images/products/BAR-CFE1200BL2:.png"
       ]
     },
     {
       "id": 11,
       "category": "home",
-      "name": "Freidora de aire 7l 1400w",
-      "code": "AFX-14Z1",
+      "name": "Freidora eléctrica",
+      "code": "DX-AFR2000W",
+      "description": "Freidora de aceite",
+      "details": [
+        "Sistema de fritura abierta, lo que facilita resultados profesionales y una limpieza sencilla",
+        "Termostato ajustable con luces indicadoras que muestran el estado de calentamiento",
+        "Protección térmica automática que apaga la freidora si se sobrecalienta",
+        "Depósito interno de aceite con marcas de nivel mínimo y máximo",
+        "Base antideslizante y superficie exterior resistente al calor",
+        "Indicador luminoso se apaga cuando el aceite alcanza la temperatura seleccionada"
+      ],
+      "features": [
+        "Potencia: 2000 watts",
+        "Capacidad 3 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/DX-AFR2000W_main.png",
+        "assets/images/products/DX-AFR2000W0.png",
+        "assets/images/products/DX-AFR2000W1.png"
       ]
     },
     {
       "id": 12,
       "category": "home",
-      "name": "Juguera eléctrica 400w",
-      "code": "EXT-EJ001SL",
+      "name": "Freidora de aire 7l 1400w",
+      "code": "AFX-14Z1",
+      "description": "Freidora de aire digital",
+      "details": [
+        "Circulación rápida de aire caliente (“Rapid Air”) que cocina los alimentos uniformemente sin necesidad de aceite",
+        "Panel táctil digital con pantalla LED",
+        "Rango de temperatura: 80 °C – 200 °C",
+        "Programable hasta 60 minutos con apagado automático",
+        "Funciones automáticas: 7 programas preestablecidos para los alimentos más comunes (papas fritas, costillas, camarones, muslo de pollo, bistec, pastel y pescado)"
+      ],
+      "features": [
+        "Potencia: 1400 watts",
+        "Capacidad 7 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/AFX-14Z1_main.png",
+        "assets/images/products/AFX-14Z10.png",
+        "assets/images/products/AFX-14Z11.png"
       ]
     },
     {
       "id": 13,
       "category": "home",
-      "name": "Panchuquera eléctrica",
-      "code": "SAN-700C",
+      "name": "Juguera eléctrica 400w",
+      "code": "EXT-EJ001SL",
+      "description": "Juguera eléctrica",
+      "details": [
+        "Diseño compacto y moderno, con cuerpo metálico y depósito lateral para pulpa",
+        "Capacidad estimada: 1 L de jugo",
+        "Sistema de seguridad doble: bloqueo mecánico + corte térmico",
+        "Fácil desmontaje y limpieza",
+        "Materiales de calidad alimentaria"
+      ],
+      "features": [
+        "Potencia: 400W"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/EXT-EJ001SL_main.png",
+        "assets/images/products/EXT-EJ001SL0.png",
+        "assets/images/products/EXT-EJ001SL1.png"
       ]
     },
     {
       "id": 14,
       "category": "home",
-      "name": "Tostadora eléctrica de 2 rebanadas",
-      "code": "DX-TOST650",
+      "name": "Panchuquera eléctrica",
+      "code": "SAN-700C",
+      "description": "Panchuquera eléctrica",
+      "details": [
+        "Diseño compacto y seguro, con cuerpo de plástico resistente al calor y placas interiores metálicas antiadherentes",
+        "Encendido automático: se activa al conectar el enchufe (sin interruptor)",
+        "Capacidad: permite cocinar 6 panchuques por tanda",
+        "Tiempo de cocción: 5–8 minutos, dependiendo del tipo de masa y relleno",
+        "Distribución uniforme del calor gracias a su doble placa calefactora",
+        "Luz indicadora que muestra cuándo la unidad está encendida o lista para usar",
+        "Aislamiento térmico en el mango y la carcasa exterior para evitar quemaduras."
+      ],
+      "features": [
+        "Potencia: 700W"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/SAN-700C_main.png",
+        "assets/images/products/SAN-700C0.png",
+        "assets/images/products/SAN-700C1.png",
+        "assets/images/products/SAN-700C2.png"
       ]
     },
     {
       "id": 15,
       "category": "home",
-      "name": "Vaporera eléctrica 8.5l",
-      "code": "VAP-FSP003",
+      "name": "Tostadora eléctrica de 2 rebanadas",
+      "code": "DX-TOST650",
+      "description": "Tostadora eléctrica",
+      "details": [
+        "Capacidad: 2 ranuras para rebanadas de pan estándar",
+        "Diseño compacto, moderno y seguro, con acabado en color negro brillante",
+        "Base antideslizante para estabilidad durante el uso",
+        "Temporizador / selector de tostado (ajuste de nivel de dorado)",
+        "Botón de STOP (para detener el ciclo manualmente)."
+      ],
+      "features": [
+        "Potencia: 650W"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/DX-TOST650_main.png",
+        "assets/images/products/DX-TOST6500.png",
+        "assets/images/products/DX-TOST6501.png"
       ]
     },
     {
       "id": 16,
       "category": "home",
-      "name": "Yogurtera eléctrica",
-      "code": "DX-YOG20W",
+      "name": "Vaporera eléctrica 8.5l",
+      "code": "VAP-FSP003",
+      "description": "Vaporera eléctrica",
+      "details": [
+        "Cuerpo de acero inoxidable con recipientes plásticos transparentes resistentes al calor",
+        "Tres niveles de cocción (hasta tres cestas apilables)",
+        "Cocina al vapor todo tipo de alimentos: verduras, carnes, aves, pescados, arroz y más",
+        "Temporizador mecánico de hasta 60 minutos, con apagado automático al finalizar el ciclo",
+        "Sistema de cocción por vapor rápido: comienza a generar vapor en 30 segundos",
+        "Depósito de agua recargable, con indicador de nivel máximo",
+        "Cocción saludable: conserva vitaminas, minerales y sabor sin necesidad de aceite o grasa"
+      ],
+      "features": [
+        "Potencia: 800 watts",
+        "capacidad 8.5 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/VAP-FSP003_main.png",
+        "assets/images/products/VAP-FSP0030.png",
+        "assets/images/products/VAP-FSP0031.png",
+        "assets/images/products/VAP-FSP0032.png"
       ]
     },
     {
       "id": 17,
       "category": "home",
-      "name": "Anafe eléctrico doble",
-      "code": "ANF-W2200-A51",
+      "name": "Yogurtera eléctrica",
+      "code": "DX-YOG20W",
+      "description": "Yogurtera eléctrica",
+      "details": [
+        "Sistema PTC (Coeficiente de Temperatura Positivo) que regula la temperatura automáticamente para una fermentación estable y segura",
+        "Cuerpo principal metálico y plástico resistente al calor",
+        "Tapa y cubierta transparentes, que permiten observar el proceso de fermentación",
+        "Incluye 7 frascos de vidrio individuales para preparar porciones separadas de yogur",
+        "Recipiente de fermentación interno"
+      ],
+      "features": [
+        "Potencia: 20 watts",
+        "Capacidad: 1.5 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/DX-YOG20W_main.png",
+        "assets/images/products/DX-YOG20W0.png",
+        "assets/images/products/DX-YOG20W1.png",
+        "assets/images/products/DX-YOG20W2.png",
+        "assets/images/products/DX-YOG20W3.png"
       ]
     },
     {
       "id": 18,
       "category": "home",
-      "name": "Pava eléctrica corte mate 1.8l",
-      "code": "PAV-PE15006M",
+      "name": "Anafe eléctrico doble",
+      "code": "ANF-W2200-A51",
+      "description": "Anafe eléctrico doble",
+      "details": [
+        "Dos hornallas eléctricas con control independiente",
+        "Perillas reguladoras de temperatura para cada placa",
+        "Luz indicadora de funcionamiento para cada hornalla",
+        "Estructura metálica resistente, color negro",
+        "Base estable con patas antideslizantes",
+        "Calentamiento rápido y uniforme"
+      ],
+      "features": [
+        "Potencia: 2200 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/ANF-W2200-A51_main.png",
+        "assets/images/products/ANF-W2200-A510.png",
+        "assets/images/products/ANF-W2200-A511.png"
       ]
     },
     {
       "id": 19,
       "category": "home",
-      "name": "Sandwichera panini grill eléctrica 700w",
-      "code": "WH-SM700SB-01",
+      "name": "Pava eléctrica corte mate 1.8l",
+      "code": "PAV-PE15006M",
+      "description": "Pava eléctrica",
+      "details": [
+        "Cuerpo de acero inoxidable cepillado",
+        "Calentamiento rápido",
+        "Corte automático de energía al alcanzar la temperatura seleccionada",
+        "Modo Mate (85 °C): mantiene el agua caliente sin hervir",
+        "Modo Hervir (100 °C): lleva el agua a ebullición y corta automáticamente",
+        "Indicadores luminosos: luces de color para mostrar encendido y temperatura",
+        "Ideal para mate, té, café o infusiones"
+      ],
+      "features": [
+        "Potencia: 1500 watts",
+        "Capacidad: 1.8 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/PAV-PE15006M_main.png",
+        "assets/images/products/PAV-PE15006M0.png",
+        "assets/images/products/PAV-PE15006M1.png"
       ]
     },
     {
       "id": 20,
       "category": "home",
-      "name": "Cafetera Expresso 1000w",
-      "code": "BAR-CFE1000RD",
+      "name": "Sandwichera panini grill eléctrica 700w",
+      "code": "WH-SM700SB-01",
+      "description": "Sandwichera panini grill eléctrica",
+      "details": [
+        "Diseño compacto, con placas antiadherentes y acabado en acero inoxidable",
+        "Calentamiento rápido: alcanza temperatura óptima en menos de 2 minutos",
+        "Cocción automática y uniforme: las placas superior e inferior cocinan ambos lados del sándwich simultáneamente",
+        "Traba de cierre ajustable, ideal para presionar paninis, sándwiches o tostadas",
+        "Base antideslizante para mayor estabilidad durante el uso"
+      ],
+      "features": [
+        "Potencia: 700 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/WH-SM700SB-01_main.png",
+        "assets/images/products/WH-SM700SB-010.png",
+        "assets/images/products/WH-SM700SB-011.png"
       ]
     },
     {
       "id": 21,
       "category": "home",
-      "name": "Hervidor de huevos",
-      "code": "DX-HERV360W",
+      "name": "Cafetera Expresso 1000w",
+      "code": "BAR-CFE1000RD",
+      "description": "Cafetera Expresso",
+      "details": [
+        "Capacidad: Hasta 4 tazas de espresso por ciclo",
+        "Presión de trabajo: Sistema de vapor tradicional, ideal para espresso y cappuccino",
+        "Color: Negro con detalles metálicos"
+      ],
+      "features": [
+        "Potencia: 1000 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/BAR-CFE1000RD_main.png",
+        "assets/images/products/BAR-CFE1000RD0.png",
+        "assets/images/products/BAR-CFE1000RD1.png",
+        "assets/images/products/BAR-CFE1000RD2.png",
+        "assets/images/products/BAR-CFE1000RD3.png"
       ]
     },
     {
       "id": 22,
       "category": "home",
-      "name": "Sandwichera eléctrica",
-      "code": "SAN-SM700SW-04",
+      "name": "Hervidor de huevos",
+      "code": "DX-HERV360W",
+      "description": "Hervidor de huevos",
+      "details": [
+        "Compacto, con líneas suaves y tapa transparente",
+        "Placa calefactora de acero inoxidable 304, resistente y de alta eficiencia",
+        "Materiales de calidad alimentaria",
+        "Tapa superior de policarbonato transparente, que permite ver el proceso de cocción",
+        "Base con mango lateral y rejilla desmontable para huevos"
+      ],
+      "features": [
+        "Potencia: 3600 watts",
+        "Capacidad: 7 huevos"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/DX-HERV360W_main.png",
+        "assets/images/products/DX-HERV360W0.png",
+        "assets/images/products/DX-HERV360W1.png"
       ]
     },
     {
       "id": 23,
       "category": "home",
-      "name": "Freidora de aire",
-      "code": "WKAF405",
+      "name": "Sandwichera eléctrica",
+      "code": "SAN-SM700SW-04",
+      "description": "Sandwichera eléctrica",
+      "details": [
+        "Compacto, con cuerpo de plástico resistente al calor y tapa superior de acero inoxidable SUS 430",
+        "Encendido automático: Al enchufar el aparato, las luces roja y verde se encienden simultáneamente"
+      ],
+      "features": [
+        "Potencia: 700 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/SAN-SM700SW-04_main.png",
+        "assets/images/products/SAN-SM700SW-040.png",
+        "assets/images/products/SAN-SM700SW-041.png"
       ]
     },
     {
       "id": 24,
       "category": "home",
       "name": "Freidora de aire",
-      "code": "WKAF711",
+      "code": "WKAF405",
+      "description": "Freidora de aire digital",
+      "details": [
+        "Sistema Rapid Air, circulación rápida de aire caliente combinada con una parrilla superior, que cocina los alimentos de forma uniforme y saludable",
+        "Cesta y bandeja con recubrimiento antiadherente, cuerpo exterior resistente al calor",
+        "Temperatura ajustable: de 40 °C a 200 °C",
+        "Tiempo de cocción: hasta 60 minutos (ajustable en intervalos de 1 min)",
+        "Apagado automático al finalizar el temporizador"
+      ],
+      "features": [
+        "Potencia: 1400 watts",
+        "Capacidad 6 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/WKAF405_main.png",
+        "assets/images/products/WKAF4050.png",
+        "assets/images/products/WKAF4051.png"
       ]
     },
     {
       "id": 25,
       "category": "home",
-      "name": "Máquina de donas profesional",
-      "code": "SAN-SM700SW-05",
+      "name": "Freidora de aire",
+      "code": "WKAF711",
+      "description": "Horno freidora de aire",
+      "details": [
+        "Puerta de vidrio templado con manija fría al tacto",
+        "Indicador lumínico de encendido y funcionamiento",
+        "Sistema de ventilación trasera para circulación de aire caliente uniforme",
+        "Cuerpo metálico con interior antiadherente",
+        "Rango de temperatura: 80 °C – 230 °C",
+        "Rango de tiempo: 0 – 60 minutos"
+      ],
+      "features": [
+        "Potencia: 1700 watts",
+        "Capacidad 17 litros"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/WKAF711_main.png",
+        "assets/images/products/WKAF7110.png",
+        "assets/images/products/WKAF7111.png"
       ]
     },
     {
       "id": 26,
       "category": "home",
-      "name": "Santel eléctrica",
-      "code": "DX-SAREL305",
+      "name": "Máquina de donas profesional",
+      "code": "SAN-SM700SW-05",
+      "description": "Máquina de donas profesional",
+      "details": [
+        "Cuerpo de plástico resistente al calor",
+        "Superficie de cocción antiadherente",
+        "Tapa superior de acero inoxidable SUS 430",
+        "Capacidad: prepara 7 donas pequeñas por tanda"
+      ],
+      "features": [
+        "Potencia: 700 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-home.png"
+        "assets/images/products/SAN-SM700SW-05_main.png",
+        "assets/images/products/SAN-SM700SW-050.png",
+        "assets/images/products/SAN-SM700SW-051.png",
+        "assets/images/products/SAN-SM700SW-052.png"
       ]
     },
     {
       "id": 27,
-      "category": "audio",
-      "name": "Parlante 3*8\" 1300w",
-      "code": "PAR130W10",
+      "category": "home",
+      "name": "Santel eléctrica",
+      "code": "DX-SAREL305",
+      "description": "Santel eléctrica con tapa de vidrio",
+      "details": [
+        "Sartén con recubrimiento antiadherente",
+        "Tapa de vidrio templado con válvula de salida de vapor",
+        "Base y asas de plástico resistente al calor",
+        "Cocción versátil: sirve para freír, saltear, guisar, hervir o mantener caliente",
+        "Distribución uniforme del calor en toda la superficie",
+        "Control de temperatura ajustable para diferentes tipos de alimentos"
+      ],
+      "features": [
+        "Potencia: 1500 watts"
+      ],
       "images": [
-        "assets/images/categories/cat-audio.png"
+        "assets/images/products/DX-SAREL305_main.png",
+        "assets/images/products/DX-SAREL3051.png",
+        "assets/images/products/DX-SAREL3051.png"
       ]
     },
     {
       "id": 28,
       "category": "audio",
-      "name": "Parlante 8 con micrófono 800w",
-      "code": "DX-PARF1808",
+      "name": "Parlante 3*8\" 1300w",
+      "code": "PAR130W10",
+      "description": "Torre de sonido profesional",
+      "details": [
+        "Torre vertical con cuatro parlantes frontales iluminados con luces LED RGB",
+        "Sistema de múltiples altavoces que ofrece graves profundos y agudos nítidos",
+        "Bluetooth (BT) para transmisión inalámbrica",
+        "Entrada USB",
+        "Lector de tarjeta TF (microSD)",
+        "Entrada AUX",
+        "Radio FM con antena trasera dedicada"
+      ],
+      "features": [
+        "BATERÍA DE LITIO",
+        "ENTRADA USB",
+        "3800W PMPO",
+        "3X12 PULGADAS",
+        "130W"
+      ],
       "images": [
-        "assets/images/categories/cat-audio.png"
+        "assets/images/products/PAR130W10main.png",
+        "assets/images/products/PAR130W100.png",
+        "assets/images/products/PAR130W101.png"
       ]
     },
     {
       "id": 29,
       "category": "audio",
-      "name": "Parlante inalámbrico",
-      "code": "DX-PARFS888",
+      "name": "Parlante 8 con micrófono 800w",
+      "code": "DX-PARF1808",
+      "details": [
+        "TARJETA TF",
+        "MICRÓFONO CON CABLE",
+        "CONTROL REMOTO",
+        "SONIDO ESTERÉO",
+        "MP3 PLAYER",
+        "RADIO FM INALÁMBRICA"
+      ],
+      "features": [
+        "BATERÍA DE LITIO",
+        "ENTRADA USB",
+        "800W PMPO",
+        "8 PULGADAS"
+      ],
       "images": [
-        "assets/images/categories/cat-audio.png"
+        "assets/images/products/DX-PARF1808_main.png",
+        "assets/images/products/DX-PARF18080.png",
+        "assets/images/products/DX-PARF18081.png"
       ]
     },
     {
       "id": 30,
       "category": "audio",
-      "name": "Parlante inalámbrico 2*8 - 3\"",
-      "code": "DX-PARCI2X8",
+      "name": "Parlante inalámbrico",
+      "code": "DX-PARFS888",
+      "description": "Torre de sonido profesional",
+      "details": [
+        "TARJETA TF",
+        "MICRÓFONO CON CABLE",
+        "CONTROL REMOTO",
+        "SONIDO ESTERÉO",
+        "MP3 PLAYER",
+        "RADIO FM INALÁMBRICA"
+      ],
+      "features": [
+        "BATERÍA DE LITIO",
+        "ENTRADA USB",
+        "2400W PMPO",
+        "3X8 PULGADAS"
+      ],
       "images": [
-        "assets/images/categories/cat-audio.png"
+        "assets/images/products/DX-PARFS888_main.png",
+        "assets/images/products/DX-PARFS8880.png",
+        "assets/images/products/DX-PARFS8881.png"
       ]
     },
     {
       "id": 31,
       "category": "audio",
-      "name": "Parlante inalámbrico",
-      "code": "PAR60WC3",
+      "name": "Parlante inalámbrico 2*8 - 3\"",
+      "code": "DX-PARCI2X8",
+      "details": [
+        "TARJETA TF",
+        "MICRÓFONO CON CABLE",
+        "CONTROL REMOTO",
+        "SONIDO ESTERÉO",
+        "MP3 PLAYER",
+        "RADIO FM INALÁMBRICA"
+      ],
+      "features": [
+        "BATERÍA DE LITIO",
+        "ENTRADA USB",
+        "1600W PMPO",
+        "2x8 PULGADAS"
+      ],
       "images": [
         "assets/images/categories/cat-audio.png"
       ]
@@ -304,7 +736,7 @@
       "id": 32,
       "category": "audio",
       "name": "Parlante inalámbrico",
-      "code": "DX-BLUPAR32",
+      "code": "PAR60WC3",
       "images": [
         "assets/images/categories/cat-audio.png"
       ]
@@ -313,67 +745,189 @@
       "id": 33,
       "category": "audio",
       "name": "Parlante inalámbrico",
-      "code": "PAR60WC1",
+      "code": "DX-BLUPAR32",
+      "description": "Parlante inalámbrico",
+      "details": [
+        "TARJETA TF",
+        "MICRÓFONO CON CABLE",
+        "CONTROL REMOTO",
+        "SONIDO ESTERÉO",
+        "MP3 PLAYER",
+        "RADIO FM INALÁMBRICA"
+      ],
+      "features": [
+        "BATERÍA DE LITIO",
+        "ENTRADA USB",
+        "2400W PMPO",
+        "3X8 PULGADAS"
+      ],
       "images": [
-        "assets/images/categories/cat-audio.png"
+        "assets/images/products/DX-BLUPAR32_main.png",
+        "assets/images/products/DX-BLUPAR32_0.png",
+        "assets/images/products/DX-BLUPAR32_main.png"
       ]
     },
     {
       "id": 34,
-      "category": "beauty",
-      "name": "Cortadora de pelo 9w",
-      "code": "CORHCL909",
+      "category": "audio",
+      "name": "Parlante inalámbrico",
+      "code": "PAR60WC1",
+      "description": "Parlante Torre",
+      "details": [
+        "TARJETA TF",
+        "MICRÓFONO CON CABLE",
+        "CONTROL REMOTO",
+        "SONIDO ESTERÉO",
+        "MP3 PLAYER",
+        "RADIO FM INALÁMBRICA"
+      ],
+      "features": [
+        "BATERÍA DE LITIO",
+        "ENTRADA USB",
+        "3000W PMPO",
+        "3X10 PULGADAS"
+      ],
       "images": [
-        "assets/images/categories/cat-beauty.png"
+        "assets/images/products/PAR60WC1_main.png",
+        "assets/images/products/PAR60WC1_0.png",
+        "assets/images/products/PAR60WC1_1.png"
       ]
     },
     {
       "id": 35,
       "category": "beauty",
-      "name": "Cepillo alisador",
-      "code": "PLHCR2213",
+      "name": "Cortadora de pelo 9w",
+      "code": "CORHCL909",
+      "description": "Cortadora de barba",
+      "details": [
+        "INCLUYE 4\n PEINES DE CORTE",
+        "INCLUYE\n ACCESORIOS",
+        "DISEÑO\n ERGONÓMICO",
+        "CABLE \nLARGO"
+      ],
       "images": [
-        "assets/images/categories/cat-beauty.png"
+        "assets/images/products/CORHCL909_main.png",
+        "assets/images/products/CORHCL909_0.png",
+        "assets/images/products/CORHCL909_1.png",
+        "assets/images/products/CORHCL909_2.png"
       ]
     },
     {
       "id": 36,
       "category": "beauty",
-      "name": "Rizador de cabello",
-      "code": "MDL-DNW4001",
+      "name": "Cepillo alisador",
+      "code": "PLHCR2213",
+      "description": "Cepillo alisador",
+      "details": [
+        "PARA TODO TIPO \nDE CABELLOS",
+        "2 NIVELES\nDE TEMPERATURA",
+        "CALENTADO\n RÁPIDO",
+        "INDICADOR\n LUMINOSO"
+      ],
       "images": [
-        "assets/images/categories/cat-beauty.png"
+        "assets/images/products/PLHCR2213_main.png",
+        "assets/images/products/PLHCR2213_0.png",
+        "assets/images/products/PLHCR2213_1.png"
       ]
     },
     {
       "id": 37,
       "category": "beauty",
-      "name": "Secador de pelo",
-      "code": "SECHD2301",
+      "name": "Rizador de cabello",
+      "code": "MDL-DNW4001",
+      "description": "Rizador de pelo",
+      "details": [
+        "CALENTAMIENTO EN \n10 SEGUNDOS",
+        "RIZADOR\n AUTOMÁTICO",
+        "REGULACIÓN DE\nTEMPERATURA",
+        "GIRATORIO 360°"
+      ],
+      "features": [
+        "40W",
+        "160° CABELLO SUAVE NORMAL",
+        "180° CABELLO EN GENERAL",
+        "200°CABELLO ASPERO Y DURO"
+      ],
       "images": [
-        "assets/images/categories/cat-beauty.png"
+        "assets/images/products/MDL-DNW4001_main.png",
+        "assets/images/products/MDL-DNW4001_0.png",
+        "assets/images/products/MDL-DNW4001_1.png"
       ]
     },
     {
       "id": 38,
       "category": "beauty",
-      "name": "Combo Cuidador Personal 3 en 1",
-      "code": "CBR-5WA03\nCBR-5WA04\nCBR-5WA05",
+      "name": "Secador de pelo",
+      "code": "SECHD2301",
+      "description": "Secador de pelo",
+      "details": [
+        "GANCHO PARA\nCOLGAR",
+        "2 NIVELES DE \nTEMPERATURA",
+        "BOQUILLA DE PEINADO \nDESACOPLABLE",
+        "CON VENTILACIÓN"
+      ],
+      "features": [
+        "2000W"
+      ],
       "images": [
-        "assets/images/categories/cat-beauty.png"
+        "assets/images/products/SECHD2301_main.png",
+        "assets/images/products/SECHD2301_0.png",
+        "assets/images/products/SECHD2301_1.png"
       ]
     },
     {
       "id": 39,
       "category": "beauty",
-      "name": "Cortadora de pelo profesional 5 en 1",
-      "code": "CBR-5WA01",
+      "name": "Combo Cuidador Personal 3 en 1",
+      "code": "CBR-5WA03\nCBR-5WA04\nCBR-5WA05",
+      "description": "Combo Cuidador Personal 3 en 1",
+      "details": [
+        "accesorios\n1 CABLE TIPOC",
+        "6 PEINES GUÍA PARA CONTRAPELOS",
+        "3 PEINES GUÍA PARA RECORTADORA",
+        "FUNDA PROTECTORA",
+        "CEPILLO",
+        "BOTELLA DE ACEITE"
+      ],
+      "features": [
+        "coradora de pelo usb profesional (cbr-5qa03)\npantalla lcd",
+        "bateria de litio",
+        "cuchilla de carbono",
+        "tiempo de uso 3hs",
+        "cortadora de pelo usb profesional (cbr-5wa04)\npantalla lcd",
+        "batería de litio",
+        "cuchilla de carbono",
+        "tiempo de uso 3,5hs",
+        "afeitadora usb (cbr-5wa05)\nbatería de litio",
+        "velocidad 8300rpm/min",
+        "tiempo de uso 80min"
+      ],
       "images": [
-        "assets/images/categories/cat-beauty.png"
+        "assets/images/products/COMBO-CBR-5WA05_main.png",
+        "assets/images/products/COMBO-CBR-5WA05_0.png",
+        "assets/images/products/COMBO-CBR-5WA05_1.png"
       ]
     },
     {
       "id": 40,
+      "category": "beauty",
+      "name": "Cortadora de pelo profesional 5 en 1",
+      "code": "CBR-5WA01",
+      "description": "Cortadora de pelo profesional 5 en 1",
+      "details": [
+        "PARA NARIZ, OREJAS,\nCABEZA Y BARBA",
+        "5 NIVELES \nDE CORTE",
+        "CABEZALES\n LAVABLES",
+        "INCLUYE\n PEINE"
+      ],
+      "images": [
+        "assets/images/products/CBR-5WA01_main.png",
+        "assets/images/products/CBR-5WA01_0.png",
+        "assets/images/products/CBR-5WA01_1.png"
+      ]
+    },
+    {
+      "id": 41,
       "category": "beauty",
       "name": "Rizador de pelo 2 en 1",
       "code": "PLHCR2215",
@@ -382,7 +936,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 42,
       "category": "beauty",
       "name": "Rizador de pelo 2 en 1",
       "code": "MDL-DNW6001",
@@ -403,10 +957,6 @@
     {
       "id": "camera",
       "name": "Cámaras & Fotografía"
-    },
-    {
-      "id": "electronics",
-      "name": "Electrónica & Accesorios"
     },
     {
       "id": "home",

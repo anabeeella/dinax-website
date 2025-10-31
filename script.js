@@ -135,8 +135,21 @@ function renderProducts(products = productsData) {
         return;
     }
 
+    // Filter out incomplete products (those missing description, details, or features)
+    const completeProducts = products.filter(product => isProductComplete(product));
+
+    if (completeProducts.length === 0) {
+        productsGrid.innerHTML = `
+            <div class="no-products">
+                <h3>No se encontraron productos</h3>
+                <p>Intenta ajustar los filtros de búsqueda</p>
+            </div>
+        `;
+        return;
+    }
+
     // Generate product cards
-    products.forEach(product => {
+    completeProducts.forEach(product => {
         const productCard = createProductCard(product);
         productsGrid.appendChild(productCard);
     });
@@ -158,7 +171,7 @@ function createProductCard(product) {
             <h3>${product.name}</h3>
             ${product.description ? `<p>${product.description}</p>` : ''}
             <div class="product-features-preview">
-                ${product.details ? product.details.map(detail => `<span class="feature-tag">${detail}</span>`).join('') : ''}
+                ${product.details ? product.details.slice(0, 3).map(detail => `<span class="feature-tag">${detail}</span>`).join('') : ''}
             </div>
             <span class="category-link">Ver Detalles</span>
         </div>
@@ -170,6 +183,35 @@ function createProductCard(product) {
     });
 
     return productCard;
+}
+
+// Helper function to check if a product should be displayed
+// Products with empty description, details, or features will be hidden
+function isProductComplete(product) {
+    // Check description - must exist and not be empty/whitespace
+    if (!product.description || typeof product.description !== 'string' || product.description.trim() === '') {
+        return false;
+    }
+    
+    // Check details - must exist and be a non-empty array with at least one non-empty item
+    if (!product.details || !Array.isArray(product.details) || product.details.length === 0) {
+        return false;
+    }
+    const hasValidDetails = product.details.some(detail => detail && String(detail).trim() !== '');
+    if (!hasValidDetails) {
+        return false;
+    }
+    
+    // Check features - must exist and be a non-empty array with at least one non-empty item
+    if (!product.features || !Array.isArray(product.features) || product.features.length === 0) {
+        return false;
+    }
+    const hasValidFeatures = product.features.some(feature => feature && String(feature).trim() !== '');
+    if (!hasValidFeatures) {
+        return false;
+    }
+    
+    return true;
 }
 
 // Helper function to get category name
@@ -256,14 +298,17 @@ function loadRelatedProducts() {
     const currentProduct = productsData.find(p => p.id == currentProductId);
     if (!currentProduct) return;
 
+    // Filter out incomplete products first
+    const completeProducts = productsData.filter(p => isProductComplete(p));
+
     // Get related products (same category first, then others)
-    let relatedProducts = productsData
+    let relatedProducts = completeProducts
         .filter(p => p.category === currentProduct.category && p.id != currentProductId)
         .slice(0, 4); // Try to get 4 from same category
 
     // If we don't have enough products from same category, add from other categories
     if (relatedProducts.length < 4) {
-        const otherProducts = productsData
+        const otherProducts = completeProducts
             .filter(p => p.category !== currentProduct.category && p.id != currentProductId)
             .slice(0, 4 - relatedProducts.length);
         
@@ -272,7 +317,7 @@ function loadRelatedProducts() {
 
     // If still not enough, add any remaining products (excluding current)
     if (relatedProducts.length < 4) {
-        const remainingProducts = productsData
+        const remainingProducts = completeProducts
             .filter(p => p.id != currentProductId && !relatedProducts.some(rp => rp.id === p.id))
             .slice(0, 4 - relatedProducts.length);
         
@@ -314,6 +359,13 @@ function loadProductDetails() {
     
     const product = productsData.find(p => p.id == productId);
     if (!product) return;
+    
+    // Check if product is complete - if not, redirect to catalog
+    if (!isProductComplete(product)) {
+        console.warn('Product is incomplete (missing description, details, or features). Redirecting to catalog.');
+        window.location.href = 'catalog.html';
+        return;
+    }
     
     // Update product information
     document.getElementById('product-title').textContent = product.name;
@@ -522,7 +574,7 @@ function filterProducts() {
             break;
     }
 
-    // Render filtered products
+    // Render filtered products (renderProducts will filter out incomplete products)
     renderProducts(filteredProducts);
 }
 
