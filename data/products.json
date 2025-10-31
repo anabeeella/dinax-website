@@ -610,6 +610,31 @@
     {
       "id": 27,
       "category": "home",
+      "name": "Panquequera eléctrica",
+      "code": "WH-CM800SEC-02",
+      "description": "Panquequera eléctrica",
+      "details": [
+        "Cuerpo y mango de plástico resistente al calor",
+        "Placa antiadherente, ideal para cocinar sin que la masa se pegue",
+        "Encendido automático al conectar",
+        "la luz roja indica que el aparato está calentando",
+        "Temperatura ajustable: permite elegir distintos niveles de calor según el tipo de panqueque o crepe"
+      ],
+      "features": [
+        "Potencia: 800 watts",
+        "Diametro: 20 cm"
+      ],
+      "images": [
+        "assets/images/products/WH-CM800SEC02_main.png",
+        "assets/images/products/WH-CM800SEC020.png",
+        "assets/images/products/WH-CM800SEC021.png",
+        "assets/images/products/WH-CM800SEC022.png",
+        "assets/images/products/WH-CM800SEC023.png"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "home",
       "name": "Santel eléctrica",
       "code": "DX-SAREL305",
       "description": "Santel eléctrica con tapa de vidrio",
@@ -631,7 +656,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 29,
       "category": "audio",
       "name": "Parlante 3*8\" 1300w",
       "code": "PAR130W10",
@@ -659,9 +684,9 @@
       ]
     },
     {
-      "id": 29,
+      "id": 30,
       "category": "audio",
-      "name": "Parlante 8 con micrófono 800w",
+      "name": "Parlante 8\" con micrófono 800w",
       "code": "DX-PARF1808",
       "details": [
         "TARJETA TF",
@@ -684,7 +709,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 31,
       "category": "audio",
       "name": "Parlante inalámbrico",
       "code": "DX-PARFS888",
@@ -710,7 +735,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 32,
       "category": "audio",
       "name": "Parlante inalámbrico 2*8 - 3\"",
       "code": "DX-PARCI2X8",
@@ -733,7 +758,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 33,
       "category": "audio",
       "name": "Parlante inalámbrico",
       "code": "PAR60WC3",
@@ -742,7 +767,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 34,
       "category": "audio",
       "name": "Parlante inalámbrico",
       "code": "DX-BLUPAR32",
@@ -768,7 +793,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 35,
       "category": "audio",
       "name": "Parlante inalámbrico",
       "code": "PAR60WC1",
@@ -794,7 +819,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 36,
       "category": "beauty",
       "name": "Cortadora de pelo 9w",
       "code": "CORHCL909",
@@ -813,7 +838,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 37,
       "category": "beauty",
       "name": "Cepillo alisador",
       "code": "PLHCR2213",
@@ -824,6 +849,9 @@
         "CALENTADO\n RÁPIDO",
         "INDICADOR\n LUMINOSO"
       ],
+      "features": [
+        "Potencia: 30 Watts"
+      ],
       "images": [
         "assets/images/products/PLHCR2213_main.png",
         "assets/images/products/PLHCR2213_0.png",
@@ -831,7 +859,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 38,
       "category": "beauty",
       "name": "Rizador de cabello",
       "code": "MDL-DNW4001",
@@ -855,7 +883,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 39,
       "category": "beauty",
       "name": "Secador de pelo",
       "code": "SECHD2301",
@@ -876,7 +904,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": 40,
       "category": "beauty",
       "name": "Combo Cuidador Personal 3 en 1",
       "code": "CBR-5WA03\nCBR-5WA04\nCBR-5WA05",
@@ -909,7 +937,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 41,
       "category": "beauty",
       "name": "Cortadora de pelo profesional 5 en 1",
       "code": "CBR-5WA01",
@@ -920,6 +948,9 @@
         "CABEZALES\n LAVABLES",
         "INCLUYE\n PEINE"
       ],
+      "features": [
+        "CABLE DE CARGA USB"
+      ],
       "images": [
         "assets/images/products/CBR-5WA01_main.png",
         "assets/images/products/CBR-5WA01_0.png",
@@ -927,21 +958,285 @@
       ]
     },
     {
-      "id": 41,
-      "category": "beauty",
-      "name": "Rizador de pelo 2 en 1",
-      "code": "PLHCR2215",
-      "images": [
-        "assets/images/categories/cat-beauty.png"
-      ]
-    },
-    {
       "id": 42,
       "category": "beauty",
       "name": "Rizador de pelo 2 en 1",
-      "code": "MDL-DNW6001",
+      "code": "PLHCR2215",
+      "description": "Rizador de pelo 2 en 1",
+      "details": [
+        "TUBO RECUBIERTO\nDE CERÁMICA",
+        "LUZ INDICADORA\n DE ENCENDIDO",
+        "CALENTADO RÁPIDO\n EN 10 SEGUNDOS"
+      ],
       "images": [
-        "assets/images/categories/cat-beauty.png"
+        "assets/images/products/PLHCR2215_main.png",
+        "assets/images/products/PLHCR2215_0.png",
+        "assets/images/products/PLHCR2215_1.png"
+      ]
+    },
+    {
+      "id": 43,
+      "category": "electronics",
+      "name": "Bicicleta",
+      "code": "DINALUSHI",
+      "description": "BICICLETA RODADO 29\"",
+      "details": [
+        "Rodado 29''"
+      ],
+      "features": [
+        "Rodado 29''"
+      ],
+      "images": [
+        "assets/images/products/DINALUSHI_main.png",
+        "assets/images/products/DINALUSHI_0.png",
+        "assets/images/products/DINALUSHI_1.png"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "electronics",
+      "name": "CARGADOR UNIVERSAL PARA NOTEBOOK",
+      "code": "PSU-240050013",
+      "description": "CARGADOR UNIVERSAL PARA NOTEBOOK",
+      "details": [
+        "INDICADOR\nLUMÍNICO APTO PARA TODOS \nLOS MODELOS",
+        "10 CONECTORES\n INTERCAMBIABLES"
+      ],
+      "images": [
+        "assets/images/products/PSU-240050013_main.png",
+        "assets/images/products/PSU-240050013_0.png",
+        "assets/images/products/PSU-240050013_1.png",
+        "assets/images/products/PSU-240050013_2.png"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "electronics",
+      "name": "CARGADOR TIPO C",
+      "code": "SN3-CAR-5.1-TC",
+      "description": "CARGADOR TIPO C",
+      "details": [
+        "Carga rápida",
+        "Entrada Tipo C"
+      ],
+      "features": [
+        "PD 50W"
+      ],
+      "images": [
+        "assets/images/products/SN3-CAR-TC_main.png",
+        "assets/images/products/SN3-CAR-TC_0.png",
+        "assets/images/products/SN3-CAR-TC_1.png"
+      ]
+    },
+    {
+      "id": 46,
+      "category": "electronics",
+      "name": "CARGADOR ENTRADA USB + TC",
+      "code": "PR2-CAR-4,2-TC",
+      "description": "CARGADOR ENTRADA USB + TC",
+      "details": [
+        "Carga rápida",
+        "Entrada USB + Tipo C"
+      ],
+      "features": [
+        "PD 50W"
+      ],
+      "images": [
+        "assets/images/products/PR2-CAR-4,2-TC_main.png",
+        "assets/images/products/PR2-CAR-4,2-TC_0.png",
+        "assets/images/products/PR2-CAR-4,2-TC_1.png"
+      ]
+    },
+    {
+      "id": 47,
+      "category": "electronics",
+      "name": "TV STICK",
+      "code": "DX-TVST01",
+      "description": "TV STICK",
+      "details": [
+        "Transmite fácilmente tus aplicaciones favoritas",
+        "Fácil de instalar",
+        "Con cable de extensión HD"
+      ],
+      "features": [
+        "8GB Ram",
+        "128GB ROM",
+        "HDMI 2.0",
+        "USB 2.1"
+      ],
+      "images": [
+        "assets/images/products/DX-TVST01_main.png",
+        "assets/images/products/DX-TVST01_0.png",
+        "assets/images/products/DX-TVST01_1.png"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "electronics",
+      "name": "OK-TV PLUS 4K",
+      "code": "DX-TVBOX4K",
+      "description": "OK-TV PLUS 4K",
+      "details": [
+        "conexión inalámbrica",
+        "4 puertos usb",
+        "Transforma tu pantalla en smart tv",
+        "Imagen 4K ultra HD"
+      ],
+      "features": [
+        "8GB Ram",
+        "128GB ROM",
+        "HDMI 2.0",
+        "USB 2.0"
+      ],
+      "images": [
+        "assets/images/products/DX-TVBOX4K_main.png",
+        "assets/images/products/DX-TVBOX4K_0.png",
+        "assets/images/products/DX-TVBOX4K_1.png"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "electronics",
+      "name": "PROYECTOR PORTÁTIL",
+      "code": "UC46",
+      "description": "PROYECTOR PORTÁTIL",
+      "details": [
+        "Entrada USBy HDMI",
+        "Incluye control remoto",
+        "Sistema estéreo",
+        "Imagen 4K ultra HD"
+      ],
+      "features": [
+        "Wi-Fi",
+        "Bluetooth 5.0"
+      ],
+      "images": [
+        "assets/images/products/UC46_main.png",
+        "assets/images/products/UC46_0.png",
+        "assets/images/products/UC46_1.png"
+      ]
+    },
+    {
+      "id": 50,
+      "category": "electronics",
+      "name": "AURICULARES INALAMBRICOS",
+      "code": "DX-AURIPRO24",
+      "description": "AURYFLY PRO24",
+      "details": [
+        "Conexión bluetooth",
+        "Sistema manos libres",
+        "Resistenete a salpicaduras",
+        "conexión a 10mts de distancia",
+        "Batería de larga duración"
+      ],
+      "images": [
+        "assets/images/products/DX-AURIPRO24_main.png",
+        "assets/images/products/DX-AURIPRO24_0.png",
+        "assets/images/products/DX-AURIPRO24_1.png"
+      ]
+    },
+    {
+      "id": 51,
+      "category": "electronics",
+      "name": "AURICULARES INALAMBRICOS",
+      "code": "DX-AURIPRO20",
+      "description": "AURICULARES INALAMBRICOS",
+      "details": [
+        "Conexión bluetooth",
+        "ligero, con micrófono",
+        "resistente a salpicaduras",
+        "funda de recarga"
+      ],
+      "features": [
+        "Bluetooth: 5.3"
+      ],
+      "images": [
+        "assets/images/products/DX-AURIPRO20_main.png",
+        "assets/images/products/DX-AURIPRO20_0.png",
+        "assets/images/products/DX-AURIPRO20_1.png"
+      ]
+    },
+    {
+      "id": 52,
+      "category": "beauty",
+      "name": "ESPEJO TOUCH CON LED",
+      "code": "DX-3ESPLUZ400",
+      "description": "ESPEJO TOUCH CON LED",
+      "details": [
+        "DISEÑO\n INNOVADOR",
+        "FÁCIL DE DE\nDESMONTAR"
+      ],
+      "features": [
+        "RECARGABLE POR USB",
+        "BANDEJA PORTA OBJETOS",
+        "3 NIVELES DE BRILLO"
+      ],
+      "images": [
+        "assets/images/products/DX-3ESPLUZ400_main.png",
+        "assets/images/products/DX-3ESPLUZ400_0.png",
+        "assets/images/products/DX-3ESPLUZ400_1.png"
+      ]
+    },
+    {
+      "id": 53,
+      "category": "computing",
+      "name": "SILLA GAMER",
+      "code": "DX-SIGAM",
+      "description": "SILLA GAMER",
+      "details": [
+        "Cuero sintético",
+        "Espuma de alta densidad",
+        "Mecanismo de doble palanca",
+        "Piston de gas de 100mm clase 2",
+        "base de nailon de 320 mm",
+        "ruedas de nailon de 50 mm"
+      ],
+      "images": [
+        "assets/images/products/DX-SIGAM_main.png",
+        "assets/images/products/DX-SIGAM_0.png",
+        "assets/images/products/DX-SIGAM_1.png",
+        "assets/images/products/DX-SIGAM_2.png",
+        "assets/images/products/DX-SIGAM_3.png",
+        "assets/images/products/DX-SIGAM_4.png",
+        "assets/images/products/DX-SIGAM_5.png",
+        "assets/images/products/DX-SIGAM_6.png",
+        "assets/images/products/DX-SIGAM_7.png",
+        "assets/images/products/DX-SIGAM_8.png",
+        "assets/images/products/DX-SIGAM_9.png"
+      ]
+    },
+    {
+      "id": 54,
+      "category": "computing",
+      "name": "TECLADO Y MOUSE RETROILUMINADO",
+      "code": "DX-COMBXTM96",
+      "description": "TECLADO Y MOUSE RETROILUMINADO",
+      "features": [
+        "Teclado:\n Conexión USB",
+        "Cable 1.35 m",
+        "105 teclas",
+        "Mouse:\n Conexión USB: \nCable 1.5 m"
+      ],
+      "images": [
+        "assets/images/products/DX-COMBXTM96_main.png",
+        "assets/images/products/DX-COMBXTM96_0.png",
+        "assets/images/products/DX-COMBXTM96_1.png"
+      ]
+    },
+    {
+      "id": 55,
+      "category": "computing",
+      "name": "MOUSE RETROILUMINADO",
+      "code": "DX-MGCOL7",
+      "description": "MOUSE RETROILUMINADO",
+      "features": [
+        "Conexión USB: \nCable 1.5 m",
+        "DPI 1200-1600-\n2400-3600"
+      ],
+      "images": [
+        "assets/images/products/DX-MGCOL7_main.png",
+        "assets/images/products/DX-MGCOL7_0.png",
+        "assets/images/products/DX-MGCOL7_1.png"
       ]
     }
   ],
@@ -957,6 +1252,14 @@
     {
       "id": "camera",
       "name": "Cámaras & Fotografía"
+    },
+    {
+      "id": "computing",
+      "name": "Computación & Gamer"
+    },
+    {
+      "id": "electronics",
+      "name": "Electrónica & Accesorios"
     },
     {
       "id": "home",

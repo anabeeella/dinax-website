@@ -1203,6 +1203,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    min-height: 340px;
 }
 
 .product-card:hover {
@@ -1217,7 +1218,7 @@ body {
 
 .product-card img {
     width: 100%;
-    height: 200px;
+    height: 340px;
     object-fit: cover;
     transition: transform var(--transition-fast);
 }
@@ -1564,15 +1565,16 @@ body {
 
 .related-product-card img {
     width: 100%;
-    height: 200px;
+    height: 240px;
     object-fit: cover;
 }
 
 .related-product-card h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #000000;
     margin: 1rem 1rem 0.5rem;
+    display: none;
 }
 
 .related-product-card .price {
