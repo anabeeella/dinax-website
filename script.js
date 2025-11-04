@@ -524,11 +524,7 @@ function loadProductDetails() {
         });
     });
     
-    // Update breadcrumb
-    const breadcrumbProduct = document.getElementById('breadcrumb-product');
-    if (breadcrumbProduct) {
-        breadcrumbProduct.textContent = product.name;
-    }
+    // Breadcrumb removed - replaced with simple "Volver al catálogo" link
 }
 
 // Filter Products
