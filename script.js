@@ -186,28 +186,26 @@ function createProductCard(product) {
 }
 
 // Helper function to check if a product should be displayed
-// Products with empty description, details, or features will be hidden
+// Products with empty description, or missing both details and features will be hidden
 function isProductComplete(product) {
     // Check description - must exist and not be empty/whitespace
     if (!product.description || typeof product.description !== 'string' || product.description.trim() === '') {
         return false;
     }
     
-    // Check details - must exist and be a non-empty array with at least one non-empty item
-    if (!product.details || !Array.isArray(product.details) || product.details.length === 0) {
-        return false;
-    }
-    const hasValidDetails = product.details.some(detail => detail && String(detail).trim() !== '');
-    if (!hasValidDetails) {
-        return false;
+    // Check if at least one of details or features exists and has valid content
+    let hasValidDetails = false;
+    if (product.details && Array.isArray(product.details) && product.details.length > 0) {
+        hasValidDetails = product.details.some(detail => detail && String(detail).trim() !== '');
     }
     
-    // Check features - must exist and be a non-empty array with at least one non-empty item
-    if (!product.features || !Array.isArray(product.features) || product.features.length === 0) {
-        return false;
+    let hasValidFeatures = false;
+    if (product.features && Array.isArray(product.features) && product.features.length > 0) {
+        hasValidFeatures = product.features.some(feature => feature && String(feature).trim() !== '');
     }
-    const hasValidFeatures = product.features.some(feature => feature && String(feature).trim() !== '');
-    if (!hasValidFeatures) {
+    
+    // Product must have at least one of details or features (not both required)
+    if (!hasValidDetails && !hasValidFeatures) {
         return false;
     }
     

@@ -1377,6 +1377,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-sm);
+    min-width: 0; /* Prevent flex item from overflowing */
+}
+
+.main-image {
+    width: 100%;
+    flex-shrink: 0; /* Prevent main image from shrinking */
 }
 
 .main-image img {
@@ -1389,11 +1395,35 @@ body {
 .thumbnail-images {
     display: flex;
     gap: var(--spacing-sm);
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: var(--spacing-xs) 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-light) transparent;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.thumbnail-images::-webkit-scrollbar {
+    height: 6px;
+}
+
+.thumbnail-images::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.thumbnail-images::-webkit-scrollbar-thumb {
+    background-color: var(--border-light);
+    border-radius: 3px;
+}
+
+.thumbnail-images::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-secondary);
 }
 
 .thumbnail {
     width: 80px;
     height: 80px;
+    min-width: 80px; /* Prevent thumbnails from shrinking */
     object-fit: cover;
     border-radius: var(--radius-sm);
     cursor: pointer;
