@@ -164,7 +164,7 @@ function createProductCard(product) {
     
     productCard.innerHTML = `
         <div class="product-image-container">
-            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" onerror="this.src='assets/images/iso-img.png'">
+            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" width="400" height="340" loading="lazy" onerror="this.src='assets/images/iso-img.png'">
             <div class="product-category-badge">${getCategoryName(product.category)}</div>
         </div>
         <div class="product-info">
@@ -335,7 +335,7 @@ function loadRelatedProducts() {
         const relatedCard = document.createElement('button');
         relatedCard.className = 'related-product-card';
         relatedCard.innerHTML = `
-            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" onerror="this.src='assets/images/iso-img.png'">
+            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" width="300" height="300" loading="lazy" onerror="this.src='assets/images/iso-img.png'">
             <h3>${product.name}</h3>
         `;
         

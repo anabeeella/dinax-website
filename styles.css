@@ -219,7 +219,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/images/hero/hero-image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/images/hero/hero-image.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1249,6 +1249,7 @@ body {
 
 .product-card img {
     width: 100%;
+    max-width: 400px;
     height: 340px;
     object-fit: cover;
     transition: transform var(--transition-fast);

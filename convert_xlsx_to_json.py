@@ -136,8 +136,8 @@ def convert_xlsx_to_json():
                     if img.startswith('assets/') or img.startswith('/'):
                         # Already has path, just ensure it has extension
                         if '.' not in os.path.basename(img):
-                            # No extension found, add .png
-                            img = img + '.png'
+                            # No extension found, add .jpg
+                            img = img + '.jpg'
                         normalized_images.append(img)
                     else:
                         # No path, construct it
@@ -163,7 +163,7 @@ def convert_xlsx_to_json():
                         
                         # Add extension if missing
                         if '.' not in os.path.basename(full_path):
-                            full_path = full_path + '.png'
+                            full_path = full_path + '.jpg'
                         
                         normalized_images.append(full_path)
                 
@@ -174,21 +174,21 @@ def convert_xlsx_to_json():
                 category = product.get('category', '')
                 # Map categories to their default images
                 category_image_map = {
-                    'audio': 'assets/images/categories/cat-audio.png',
-                    'beauty': 'assets/images/categories/cat-beauty.png',
-                    'camera': 'assets/images/categories/cat-camera.png',
-                    'computing': 'assets/images/categories/cat-computing.png',
-                    'electronics': 'assets/images/categories/cat-electronics.png',
-                    'home': 'assets/images/categories/cat-home.png',
-                    'image': 'assets/images/categories/cat-image.png',
-                    'mobile': 'assets/images/categories/cat-cell.png',  # Note: cat-cell instead of cat-mobile
+                    'audio': 'assets/images/categories/cat-audio.jpg',
+                    'beauty': 'assets/images/categories/cat-beauty.jpg',
+                    'camera': 'assets/images/categories/cat-camera.jpg',
+                    'computing': 'assets/images/categories/cat-computing.jpg',
+                    'electronics': 'assets/images/categories/cat-electronics.jpg',
+                    'home': 'assets/images/categories/cat-home.jpg',
+                    'image': 'assets/images/categories/cat-image.jpg',
+                    'mobile': 'assets/images/categories/cat-cell.jpg',  # Note: cat-cell instead of cat-mobile
                 }
                 
                 if category in category_image_map:
                     product['images'] = [category_image_map[category]]
                 else:
                     # Fallback: use a default image if category not found
-                    product['images'] = ['assets/images/categories/cat-electronics.png']
+                    product['images'] = ['assets/images/categories/cat-electronics.jpg']
             
             products.append(product)
     
