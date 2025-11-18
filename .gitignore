@@ -1,0 +1,50 @@
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Documentación de desarrollo (no necesaria en producción)
+ANALISIS_ANCHO_BANDA.md
+EXPLICACION_OPTIMIZACION.md
+ARCHIVOS_ELIMINABLES.md
+
+# Scripts de desarrollo (opcional - descomenta si no quieres subirlos)
+# convert_xlsx_to_json.py
+# optimize_images.sh
+# watch_excel.py
+
+# Backups de imágenes
+assets/images_backup_*/
+
+# Archivos temporales
+*.tmp
+*.log
+*.bak
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (si en el futuro usas npm)
+node_modules/
+package-lock.json
+
+# Python (si usas entornos virtuales)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
