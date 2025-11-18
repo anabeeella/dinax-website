@@ -107,6 +107,24 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Generate Products for Catalog
     generateProducts();
     
+    // Check if category parameter exists in URL and filter accordingly
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryParam = urlParams.get('category');
+    if (categoryParam) {
+        // Find and activate the corresponding category button
+        const categoryButtons = document.querySelectorAll('.category-btn');
+        categoryButtons.forEach(button => {
+            if (button.getAttribute('data-category') === categoryParam) {
+                // Remove active class from all buttons
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to matching button
+                button.classList.add('active');
+                // Filter products
+                filterProducts();
+            }
+        });
+    }
+    
     // Load product details if on product details page
     loadProductDetails();
     
@@ -164,7 +182,7 @@ function createProductCard(product) {
     
     productCard.innerHTML = `
         <div class="product-image-container">
-            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" width="400" height="340" loading="lazy" onerror="this.src='assets/images/iso-img.png'">
+            <img src="${product.images && product.images.length > 0 ? product.images.find(img => img.includes('_main')) || product.images[0] : product.image || ''}" alt="${product.name}" width="400" height="400" loading="lazy" onerror="this.src='assets/images/iso-img.png'">
             <div class="product-category-badge">${getCategoryName(product.category)}</div>
         </div>
         <div class="product-info">
